@@ -1,0 +1,495 @@
+Unreviewed CPLX1JTJ2R-1        an oligopeptide          ATP       
+           putative an oligopeptide ATP-driven transporter
+           an oligopeptide[periplasm] + ATP + H2O  ->  an oligopeptide[cytosol] + ADP + phosphate + H+
+Unreviewed CPLX1JTJ2R-2        a dipeptide              ATP       
+           putative a dipeptide ATP-driven transporter
+           ATP + a dipeptide[periplasm] + H2O  ->  ADP + a dipeptide[cytosol] + phosphate + H+
+Unreviewed CPLX1JTJ2R-3        trehalose                ATP       
+           putative trehalose ATP-driven transporter
+           trehalose[periplasm] + ATP + H2O  ->  trehalose[cytosol] + ADP + phosphate + H+
+Unreviewed CPLX1JTJ2R-4        trehalose                ATP       
+           putative trehalose ATP-driven transporter
+           trehalose[periplasm] + ATP + H2O  ->  trehalose[cytosol] + ADP + phosphate + H+
+Unreviewed CPLX1JTJ2R-5        iron(III)-enterobactin complex ATP       
+           putative iron(III)-enterobactin complex ATP-driven transporter
+           ATP + iron(III)-enterobactin complex[periplasm] + H2O  ->  ADP + iron(III)-enterobactin complex[cytosol] + phosphate + H+
+Unreviewed CPLX1JTJ2R-6        glutathione              ATP       
+           putative glutathione ATP-driven transporter
+           ATP + glutathione[periplasm] + H2O  ->  ADP + glutathione[cytosol] + phosphate + H+
+Unreviewed CPLX1JTJ2R-7        glutathione              ATP       
+           putative glutathione ATP-driven transporter
+           ATP + glutathione[periplasm] + H2O  ->  ADP + glutathione[cytosol] + phosphate + H+
+Unreviewed CPLX1JTJ2R-8        glutathione              ATP       
+           putative glutathione ATP-driven transporter
+           ATP + glutathione[periplasm] + H2O  ->  ADP + glutathione[cytosol] + phosphate + H+
+Unreviewed CPLX1JTJ2R-9        K+                       ATP       
+           putative K+ ATP-driven transporter
+           ATP + K+[periplasm] + H2O  ->  ADP + K+[cytosol] + phosphate + H+
+Unreviewed NALEJMNN_00687-MONOMER    L-carnitine              SECONDARY 
+           carnitine transport permease protein opucb
+           L-carnitine[periplasm] + H+[periplasm]  ->  L-carnitine[cytosol] + H+[cytosol]
+Unreviewed NALEJMNN_03530-MONOMER    D-methionine             ATP       
+           d-methionine transport system permease protein meti
+           ATP + D-methionine[periplasm] + H2O  ->  ADP + D-methionine[cytosol] + phosphate + H+
+Unreviewed NALEJMNN_00967-MONOMER    phosphate                ATP       
+           phosphate transport system permease protein pstc 2
+           ATP + phosphate[periplasm] + H2O  ->  ADP + phosphate[cytosol] + phosphate[cytosol] + H+
+Unreviewed NALEJMNN_01294-MONOMER    chromate                 UNKNOWN   
+           chromate transport protein
+           chromate[periplasm]  ->  chromate[cytosol]
+Unreviewed NALEJMNN_02133-MONOMER    myo-inositol             UNKNOWN   
+           major myo-inositol transporter iolt
+           myo-inositol[periplasm]  ->  myo-inositol[cytosol]
+Unreviewed NALEJMNN_01658-MONOMER    D-xylose                 ATP       
+           xylose transport system permease protein xylh
+           ATP + D-xylose[periplasm] + H2O  ->  ADP + D-xylose[cytosol] + phosphate + H+
+Unreviewed NALEJMNN_03137-MONOMER    chloride                 CHANNEL   
+           voltage-gated clc-type chloride channel clcb
+           chloride[periplasm]  ->  chloride[cytosol]
+Unreviewed NALEJMNN_03514-MONOMER    L-tartrate               UNKNOWN   
+           putative tartrate transporter
+           L-tartrate[periplasm]  ->  L-tartrate[cytosol]
+Unreviewed NALEJMNN_00925-MONOMER 1  melibiose                SECONDARY 
+           melibiose/raffinose/stachyose import permease protein meld
+           melibiose[periplasm] + H+[periplasm]  <-->  melibiose[cytosol] + H+[cytosol]
+Unreviewed NALEJMNN_00925-MONOMER 2  raffinose                SECONDARY 
+           melibiose/raffinose/stachyose import permease protein meld
+           raffinose[periplasm] + H+[periplasm]  ->  raffinose[cytosol] + H+[cytosol]
+Unreviewed NALEJMNN_00925-MONOMER 3  stachyose                SECONDARY 
+           melibiose/raffinose/stachyose import permease protein meld
+           stachyose[periplasm] + H+[periplasm]  ->  stachyose[cytosol] + H+[cytosol]
+Unreviewed NALEJMNN_00289-MONOMER    glutathione              ATP       
+           glutathione transport system permease protein gsid
+           ATP + glutathione[periplasm] + H2O  ->  ADP + glutathione[cytosol] + phosphate + H+
+Unreviewed NALEJMNN_02323-MONOMER    Mn2+                     UNKNOWN   
+           putative manganese efflux pump mntp
+           Several possible reactions available for import
+Unreviewed NALEJMNN_00404-MONOMER 1  4-amino-2-methyl-5-pyrimidinemethanol SECONDARY 
+           putative hmp/thiamine permease protein ykoe
+           4-amino-2-methyl-5-pyrimidinemethanol[periplasm] + H+[periplasm]  ->  4-amino-2-methyl-5-pyrimidinemethanol[cytosol] + H+[cytosol]
+Unreviewed NALEJMNN_00404-MONOMER 2  thiamine                 SECONDARY 
+           putative hmp/thiamine permease protein ykoe
+           thiamine[periplasm] + H+[periplasm]  ->  thiamine[cytosol] + H+[cytosol]
+Unreviewed NALEJMNN_00173-MONOMER 1  melibiose                SECONDARY 
+           melibiose/raffinose/stachyose import permease protein meld
+           melibiose[periplasm] + H+[periplasm]  <-->  melibiose[cytosol] + H+[cytosol]
+Unreviewed NALEJMNN_00173-MONOMER 2  raffinose                SECONDARY 
+           melibiose/raffinose/stachyose import permease protein meld
+           raffinose[periplasm] + H+[periplasm]  ->  raffinose[cytosol] + H+[cytosol]
+Unreviewed NALEJMNN_00173-MONOMER 3  stachyose                SECONDARY 
+           melibiose/raffinose/stachyose import permease protein meld
+           stachyose[periplasm] + H+[periplasm]  ->  stachyose[cytosol] + H+[cytosol]
+Unreviewed NALEJMNN_00740-MONOMER    putrescine               UNKNOWN   
+           putrescine importer puup
+           putrescine[periplasm]  ->  putrescine[cytosol]
+Unreviewed NALEJMNN_02068-MONOMER 1  Co2+                     UNKNOWN   
+           cobalt/magnesium transport protein cora
+           Several possible reactions available for import
+Unreviewed NALEJMNN_02068-MONOMER 2  Mg2+                     UNKNOWN   
+           cobalt/magnesium transport protein cora
+           Mg2+[periplasm]  ->  Mg2+[cytosol]
+Unreviewed NALEJMNN_03139-MONOMER 1  Co2+                     UNKNOWN   
+           cobalt/magnesium transport protein cora
+           Several possible reactions available for import
+Unreviewed NALEJMNN_03139-MONOMER 2  Mg2+                     UNKNOWN   
+           cobalt/magnesium transport protein cora
+           Mg2+[periplasm]  ->  Mg2+[cytosol]
+Unreviewed NALEJMNN_01146-MONOMER    Na+                      SECONDARY 
+           putative na(+)/h(+) exchanger
+           Na+[periplasm] + 2 H+[cytosol]  <-->  Na+[cytosol] + 2 H+[periplasm]
+Unreviewed NALEJMNN_03314-MONOMER 1  riboflavin               UNKNOWN   
+           riboflavin/roseoflavin transporter ribm
+           riboflavin[periplasm]  ->  riboflavin[cytosol]
+Unreviewed NALEJMNN_03314-MONOMER 2  roseoflavin              UNKNOWN   
+           riboflavin/roseoflavin transporter ribm
+           roseoflavin[periplasm]  ->  roseoflavin[cytosol]
+Unreviewed NALEJMNN_00374-MONOMER    trehalose                ATP       
+           trehalose transport system permease protein sugb
+           trehalose[periplasm] + ATP + H2O  ->  trehalose[cytosol] + ADP + phosphate + H+
+Unreviewed NALEJMNN_03339-MONOMER    D-xylose                 ATP       
+           xylose transport system permease protein xylh
+           ATP + D-xylose[periplasm] + H2O  ->  ADP + D-xylose[cytosol] + phosphate + H+
+Unreviewed NALEJMNN_00693-MONOMER    ATP                      UNKNOWN   
+           macrolide export atp-binding/permease protein macb
+           ATP[cytosol]  <-->  ATP[periplasm]
+Unreviewed NALEJMNN_02863-MONOMER    chloramphenicol          UNKNOWN   
+           chloramphenicol efflux pump
+           chloramphenicol[cytosol]  ->  chloramphenicol[periplasm]
+Unreviewed NALEJMNN_01160-MONOMER    sulfate                  UNKNOWN   
+           putative sulfate transporter
+           sulfate[periplasm]  ->  sulfate[cytosol]
+Unreviewed NALEJMNN_03406-MONOMER    Mn2+                     UNKNOWN   
+           manganese transport system membrane protein mntb
+           Several possible reactions available for import
+Unreviewed NALEJMNN_02902-MONOMER    L-arginine               SECONDARY 
+           arginine/ornithine antiporter
+           L-arginine[periplasm] + ornithine[cytosol]  ->  L-arginine[cytosol] + ornithine[periplasm]
+Unreviewed NALEJMNN_03121-MONOMER    putrescine               UNKNOWN   
+           putrescine importer puup
+           putrescine[periplasm]  ->  putrescine[cytosol]
+Unreviewed NALEJMNN_00478-MONOMER 1  L-proline                UNKNOWN   
+           proline/betaine transporter
+           L-proline[periplasm]  ->  L-proline[cytosol]
+Unreviewed NALEJMNN_00478-MONOMER 2  glycine betaine          UNKNOWN   
+           proline/betaine transporter
+           glycine betaine[periplasm]  <-->  glycine betaine[cytosol]
+Unreviewed NALEJMNN_02161-MONOMER 1  FMN                      UNKNOWN   
+           putative fmn/fad exporter yeeo
+           FMN[cytosol]  ->  FMN[periplasm]
+Unreviewed NALEJMNN_02161-MONOMER 2  FAD                      UNKNOWN   
+           putative fmn/fad exporter yeeo
+           FAD[cytosol]  ->  FAD[periplasm]
+Unreviewed NALEJMNN_01600-MONOMER    Mn2+                     ATP       
+           manganese abc transporter substrate-binding lipoprotein
+           ATP + Mn2+[periplasm] + H2O  ->  ADP + Mn2+[cytosol] + phosphate + H+
+Unreviewed NALEJMNN_00643-MONOMER    glycine betaine          UNKNOWN   
+           glycine betaine transporter opud
+           glycine betaine[periplasm]  <-->  glycine betaine[cytosol]
+Unreviewed NALEJMNN_00628-MONOMER    D-xylose                 ATP       
+           xylose transport system permease protein xylh
+           ATP + D-xylose[periplasm] + H2O  ->  ADP + D-xylose[cytosol] + phosphate + H+
+Unreviewed NALEJMNN_00615-MONOMER 1  Co2+                     UNKNOWN   
+           cobalt/magnesium transport protein cora
+           Several possible reactions available for import
+Unreviewed NALEJMNN_00615-MONOMER 2  Mg2+                     UNKNOWN   
+           cobalt/magnesium transport protein cora
+           Mg2+[periplasm]  ->  Mg2+[cytosol]
+Unreviewed NALEJMNN_01602-MONOMER    Zn2+                     UNKNOWN   
+           high-affinity zinc uptake system membrane protein znub
+           Zn2+[periplasm]  ->  Zn2+[cytosol]
+Unreviewed NALEJMNN_03158-MONOMER    myo-inositol             UNKNOWN   
+           major myo-inositol transporter iolt
+           myo-inositol[periplasm]  ->  myo-inositol[cytosol]
+Unreviewed NALEJMNN_03163-MONOMER 1  melibiose                SECONDARY 
+           melibiose/raffinose/stachyose import permease protein melc
+           melibiose[periplasm] + H+[periplasm]  <-->  melibiose[cytosol] + H+[cytosol]
+Unreviewed NALEJMNN_03163-MONOMER 2  raffinose                SECONDARY 
+           melibiose/raffinose/stachyose import permease protein melc
+           raffinose[periplasm] + H+[periplasm]  ->  raffinose[cytosol] + H+[cytosol]
+Unreviewed NALEJMNN_03163-MONOMER 3  stachyose                SECONDARY 
+           melibiose/raffinose/stachyose import permease protein melc
+           stachyose[periplasm] + H+[periplasm]  ->  stachyose[cytosol] + H+[cytosol]
+Unreviewed NALEJMNN_01492-MONOMER    fluoride                 UNKNOWN   
+           putative fluoride ion transporter crcb
+           fluoride[periplasm]  <-->  fluoride[cytosol]
+Unreviewed NALEJMNN_03335-MONOMER    N,N'-diacetylchitobiose  SECONDARY 
+           diacetylchitobiose uptake system permease protein dasc
+           N,N'-diacetylchitobiose[periplasm] + H+[periplasm]  ->  N,N'-diacetylchitobiose[cytosol] + H+[cytosol]
+Unreviewed NALEJMNN_01364-MONOMER    glutathione              ATP       
+           glutathione transport system permease protein gsid
+           ATP + glutathione[periplasm] + H2O  ->  ADP + glutathione[cytosol] + phosphate + H+
+Unreviewed NALEJMNN_00991-MONOMER    phosphate                UNKNOWN   
+           phosphate-specific transport system accessory protein phou
+           phosphate[periplasm]  <-  phosphate[cytosol]
+Unreviewed NALEJMNN_00459-MONOMER    N,N'-diacetylchitobiose  SECONDARY 
+           diacetylchitobiose uptake system permease protein dasc
+           N,N'-diacetylchitobiose[periplasm] + H+[periplasm]  ->  N,N'-diacetylchitobiose[cytosol] + H+[cytosol]
+Unreviewed NALEJMNN_01732-MONOMER    D-fructose               PTS       
+           pts system fructose-specific eiiabc component
+           Several possible reactions available for import
+Unreviewed NALEJMNN_01728-MONOMER    N,N'-diacetylchitobiose  SECONDARY 
+           diacetylchitobiose uptake system permease protein dasc
+           N,N'-diacetylchitobiose[periplasm] + H+[periplasm]  ->  N,N'-diacetylchitobiose[cytosol] + H+[cytosol]
+Unreviewed NALEJMNN_03071-MONOMER    glutathione              ATP       
+           glutathione transport system permease protein gsic
+           ATP + glutathione[periplasm] + H2O  ->  ADP + glutathione[cytosol] + phosphate + H+
+Unreviewed NALEJMNN_01491-MONOMER    fluoride                 UNKNOWN   
+           putative fluoride ion transporter crcb
+           fluoride[periplasm]  <-->  fluoride[cytosol]
+Unreviewed NALEJMNN_02205-MONOMER    putrescine               UNKNOWN   
+           putrescine importer puup
+           putrescine[periplasm]  ->  putrescine[cytosol]
+Unreviewed NALEJMNN_01823-MONOMER    K+                       UNKNOWN   
+           ktr system potassium uptake protein b
+           K+[periplasm]  <-->  K+[cytosol]
+Unreviewed NALEJMNN_00916-MONOMER    ATP                      UNKNOWN   
+           multidrug efflux atp-binding/permease protein
+           ATP[cytosol]  <-->  ATP[periplasm]
+Unreviewed NALEJMNN_01952-MONOMER    D-mannitol               PTS       
+           pts system mannitol-specific eiicb component
+           an [HPr protein]-Npi-phospho-L-histidine + D-mannitol[periplasm]  ->  D-mannitol 1-phosphate[cytosol] + an [HPr]-L-histidine
+Unreviewed NALEJMNN_00163-MONOMER 1  melibiose                SECONDARY 
+           melibiose/raffinose/stachyose import permease protein meld
+           melibiose[periplasm] + H+[periplasm]  <-->  melibiose[cytosol] + H+[cytosol]
+Unreviewed NALEJMNN_00163-MONOMER 2  raffinose                SECONDARY 
+           melibiose/raffinose/stachyose import permease protein meld
+           raffinose[periplasm] + H+[periplasm]  ->  raffinose[cytosol] + H+[cytosol]
+Unreviewed NALEJMNN_00163-MONOMER 3  stachyose                SECONDARY 
+           melibiose/raffinose/stachyose import permease protein meld
+           stachyose[periplasm] + H+[periplasm]  ->  stachyose[cytosol] + H+[cytosol]
+Unreviewed NALEJMNN_01661-MONOMER 1  Co2+                     UNKNOWN   
+           cobalt/magnesium transport protein cora
+           Several possible reactions available for import
+Unreviewed NALEJMNN_01661-MONOMER 2  Mg2+                     UNKNOWN   
+           cobalt/magnesium transport protein cora
+           Mg2+[periplasm]  ->  Mg2+[cytosol]
+Unreviewed NALEJMNN_01365-MONOMER    a dipeptide              ATP       
+           dipeptide transport system permease protein dppb
+           ATP + a dipeptide[periplasm] + H2O  ->  ADP + a dipeptide[cytosol] + phosphate + H+
+Unreviewed NALEJMNN_03349-MONOMER    lactose                  ATP       
+           lactose transport system permease protein lacf
+           lactose[periplasm] + ATP + H2O  ->  lactose[cytosol] + ADP + phosphate + H+
+Unreviewed NALEJMNN_01891-MONOMER    ATP                      UNKNOWN   
+           putative multidrug export atp-binding/permease protein
+           ATP[cytosol]  <-->  ATP[periplasm]
+Unreviewed NALEJMNN_02309-MONOMER 1  Co2+                     UNKNOWN   
+           cobalt/magnesium transport protein cora
+           Several possible reactions available for import
+Unreviewed NALEJMNN_02309-MONOMER 2  Mg2+                     UNKNOWN   
+           cobalt/magnesium transport protein cora
+           Mg2+[periplasm]  ->  Mg2+[cytosol]
+Unreviewed NALEJMNN_02252-MONOMER    putrescine               UNKNOWN   
+           putrescine importer puup
+           putrescine[periplasm]  ->  putrescine[cytosol]
+Unreviewed NALEJMNN_00140-MONOMER    riboflavin               ATP       
+           riboflavin transport system permease protein ribx
+           ATP + riboflavin[periplasm] + H2O  ->  ADP + riboflavin[cytosol] + phosphate + H+
+Unreviewed NALEJMNN_01689-MONOMER    Ni2+                     ATP       
+           nickel transport system permease protein nikb
+           Ni2+[periplasm] + ATP + H2O  ->  Ni2+[cytosol] + ADP + phosphate + H+
+Unreviewed NALEJMNN_01597-MONOMER    D-glucose                PTS       
+           pts system glucose-specific eiia component
+           an [HPr protein]-Npi-phospho-L-histidine + D-glucose[periplasm]  ->  D-glucose 6-phosphate[cytosol] + an [HPr]-L-histidine
+Unreviewed NALEJMNN_03162-MONOMER 1  melibiose                SECONDARY 
+           melibiose/raffinose/stachyose import permease protein meld
+           melibiose[periplasm] + H+[periplasm]  <-->  melibiose[cytosol] + H+[cytosol]
+Unreviewed NALEJMNN_03162-MONOMER 2  raffinose                SECONDARY 
+           melibiose/raffinose/stachyose import permease protein meld
+           raffinose[periplasm] + H+[periplasm]  ->  raffinose[cytosol] + H+[cytosol]
+Unreviewed NALEJMNN_03162-MONOMER 3  stachyose                SECONDARY 
+           melibiose/raffinose/stachyose import permease protein meld
+           stachyose[periplasm] + H+[periplasm]  ->  stachyose[cytosol] + H+[cytosol]
+Unreviewed NALEJMNN_02905-MONOMER    autoinducer 2            UNKNOWN   
+           ai-2 transport protein tqsa
+           autoinducer 2[periplasm]  ->  autoinducer 2[cytosol]
+Unreviewed NALEJMNN_01061-MONOMER    lactose                  ATP       
+           lactose transport system permease protein lacf
+           lactose[periplasm] + ATP + H2O  ->  lactose[cytosol] + ADP + phosphate + H+
+Unreviewed NALEJMNN_03471-MONOMER    petrobactin              UNKNOWN   
+           apo-petrobactin exporter
+           petrobactin[cytosol]  ->  petrobactin[periplasm]
+Unreviewed NALEJMNN_01381-MONOMER    ATP                      UNKNOWN   
+           macrolide export atp-binding/permease protein macb
+           ATP[cytosol]  <-->  ATP[periplasm]
+Unreviewed NALEJMNN_01198-MONOMER    ammonia                  CHANNEL   
+           ammonia channel
+           ammonia[periplasm]  <-->  ammonia[cytosol]
+Unreviewed NALEJMNN_00452-MONOMER 1  L-threonine              UNKNOWN   
+           threonine/homoserine exporter rhta
+           L-threonine[cytosol]  ->  L-threonine[periplasm]
+Unreviewed NALEJMNN_00452-MONOMER 2  L-homoserine             UNKNOWN   
+           threonine/homoserine exporter rhta
+           L-homoserine[cytosol]  ->  L-homoserine[periplasm]
+Unreviewed NALEJMNN_00458-MONOMER    lactose                  ATP       
+           lactose transport system permease protein lacf
+           lactose[periplasm] + ATP + H2O  ->  lactose[cytosol] + ADP + phosphate + H+
+Unreviewed NALEJMNN_01599-MONOMER    N-acetyl-alpha-D-glucosamine PTS       
+           pts system n-acetylglucosamine-specific eiic component
+           an [HPr protein]-Npi-phospho-L-histidine + N-acetyl-alpha-D-glucosamine[periplasm]  ->  N-acetyl-alpha-D-glucosamine 6-phosphate[cytosol] + an [HPr]-L-histidine
+Unreviewed NALEJMNN_02548-MONOMER    Na+                      SECONDARY 
+           sodium-potassium/proton antiporter chaa
+           Na+[periplasm] + 2 H+[cytosol]  <-->  Na+[cytosol] + 2 H+[periplasm]
+Unreviewed NALEJMNN_03398-MONOMER    glutathione              ATP       
+           glutathione transport system permease protein gsic
+           ATP + glutathione[periplasm] + H2O  ->  ADP + glutathione[cytosol] + phosphate + H+
+Unreviewed NALEJMNN_01121-MONOMER    a tripeptide             UNKNOWN   
+           di-/tripeptide transporter
+           a tripeptide[periplasm]  ->  a tripeptide[cytosol]
+Unreviewed NALEJMNN_03397-MONOMER    a dipeptide              ATP       
+           dipeptide transport system permease protein dppc
+           ATP + a dipeptide[periplasm] + H2O  ->  ADP + a dipeptide[cytosol] + phosphate + H+
+Unreviewed NALEJMNN_00750-MONOMER 1  guanine                  SECONDARY 
+           guanine/hypoxanthine permease pbug
+           guanine[periplasm] + H+[periplasm]  ->  guanine[cytosol] + H+[cytosol]
+Unreviewed NALEJMNN_00750-MONOMER 2  hypoxanthine             SECONDARY 
+           guanine/hypoxanthine permease pbug
+           hypoxanthine[periplasm] + H+[periplasm]  <-  hypoxanthine[cytosol] + H+[cytosol]
+Unreviewed NALEJMNN_01615-MONOMER    guanidinium              UNKNOWN   
+           guanidinium exporter
+           guanidinium[cytosol]  ->  guanidinium[periplasm]
+Unreviewed NALEJMNN_00288-MONOMER    a dipeptide              ATP       
+           dipeptide transport system permease protein dppb
+           ATP + a dipeptide[periplasm] + H2O  ->  ADP + a dipeptide[cytosol] + phosphate + H+
+Unreviewed NALEJMNN_00174-MONOMER    N,N'-diacetylchitobiose  SECONDARY 
+           diacetylchitobiose uptake system permease protein ngcg
+           N,N'-diacetylchitobiose[periplasm] + H+[periplasm]  ->  N,N'-diacetylchitobiose[cytosol] + H+[cytosol]
+Unreviewed NALEJMNN_03194-MONOMER 1  melibiose                SECONDARY 
+           melibiose/raffinose/stachyose import permease protein melc
+           melibiose[periplasm] + H+[periplasm]  <-->  melibiose[cytosol] + H+[cytosol]
+Unreviewed NALEJMNN_03194-MONOMER 2  raffinose                SECONDARY 
+           melibiose/raffinose/stachyose import permease protein melc
+           raffinose[periplasm] + H+[periplasm]  ->  raffinose[cytosol] + H+[cytosol]
+Unreviewed NALEJMNN_03194-MONOMER 3  stachyose                SECONDARY 
+           melibiose/raffinose/stachyose import permease protein melc
+           stachyose[periplasm] + H+[periplasm]  ->  stachyose[cytosol] + H+[cytosol]
+Unreviewed NALEJMNN_03148-MONOMER 1  ectoine                  UNKNOWN   
+           ectoine/proline transporter prop
+           ectoine[periplasm]  ->  ectoine[cytosol]
+Unreviewed NALEJMNN_03148-MONOMER 2  L-proline                UNKNOWN   
+           ectoine/proline transporter prop
+           L-proline[periplasm]  ->  L-proline[cytosol]
+Unreviewed NALEJMNN_02996-MONOMER    D-xylose                 SECONDARY 
+           d-xylose-proton symporter
+           D-xylose[periplasm] + H+[periplasm]  <-->  D-xylose[cytosol] + H+[cytosol]
+Unreviewed NALEJMNN_02827-MONOMER    glycerol                 SECONDARY 
+           putative glycerol uptake facilitator protein
+           glycerol[periplasm] + H+[periplasm]  ->  glycerol[cytosol] + H+[cytosol]
+Unreviewed NALEJMNN_00162-MONOMER    N,N'-diacetylchitobiose  SECONDARY 
+           diacetylchitobiose uptake system permease protein dasc
+           N,N'-diacetylchitobiose[periplasm] + H+[periplasm]  ->  N,N'-diacetylchitobiose[cytosol] + H+[cytosol]
+Unreviewed NALEJMNN_03412-MONOMER    lactose                  ATP       
+           lactose transport system permease protein lacf
+           lactose[periplasm] + ATP + H2O  ->  lactose[cytosol] + ADP + phosphate + H+
+Unreviewed NALEJMNN_02949-MONOMER    fluoride                 UNKNOWN   
+           putative fluoride ion transporter crcb
+           fluoride[periplasm]  <-->  fluoride[cytosol]
+Unreviewed NALEJMNN_03026-MONOMER    riboflavin               UNKNOWN   
+           riboflavin transporter ribz
+           riboflavin[periplasm]  ->  riboflavin[cytosol]
+Unreviewed NALEJMNN_01690-MONOMER    an oligopeptide          ATP       
+           oligopeptide transport system permease protein oppc
+           an oligopeptide[periplasm] + ATP + H2O  ->  an oligopeptide[cytosol] + ADP + phosphate + H+
+Unreviewed NALEJMNN_02566-MONOMER 1  melibiose                SECONDARY 
+           melibiose/raffinose/stachyose import permease protein meld
+           melibiose[periplasm] + H+[periplasm]  <-->  melibiose[cytosol] + H+[cytosol]
+Unreviewed NALEJMNN_02566-MONOMER 2  raffinose                SECONDARY 
+           melibiose/raffinose/stachyose import permease protein meld
+           raffinose[periplasm] + H+[periplasm]  ->  raffinose[cytosol] + H+[cytosol]
+Unreviewed NALEJMNN_02566-MONOMER 3  stachyose                SECONDARY 
+           melibiose/raffinose/stachyose import permease protein meld
+           stachyose[periplasm] + H+[periplasm]  ->  stachyose[cytosol] + H+[cytosol]
+Unreviewed NALEJMNN_00711-MONOMER    lactose                  ATP       
+           lactose transport system permease protein lacf
+           lactose[periplasm] + ATP + H2O  ->  lactose[cytosol] + ADP + phosphate + H+
+Unreviewed NALEJMNN_02735-MONOMER    sulfoacetate             UNKNOWN   
+           putative sulfoacetate transporter sauu
+           sulfoacetate[periplasm]  ->  sulfoacetate[cytosol]
+Unreviewed NALEJMNN_01977-MONOMER    L-ascorbate              PTS       
+           ascorbate-specific pts system eiia component
+           an [HPr protein]-Npi-phospho-L-histidine + L-ascorbate[periplasm]  ->  L-ascorbate 6-phosphate[cytosol] + an [HPr]-L-histidine
+Unreviewed NALEJMNN_01405-MONOMER    ATP                      UNKNOWN   
+           atp-binding/permease protein cydd
+           ATP[periplasm]  <-->  ATP[cytosol]
+Unreviewed NALEJMNN_01035-MONOMER    phosphate                SECONDARY 
+           phosphate-import permease protein phne
+           phosphate[periplasm] + H+[periplasm]  <-->  phosphate[cytosol] + H+[cytosol]
+Unreviewed NALEJMNN_02064-MONOMER    L-asparagine             SECONDARY 
+           l-asparagine permease 1
+           L-asparagine[periplasm] + H+[periplasm]  <-->  L-asparagine[cytosol] + H+[cytosol]
+Unreviewed NALEJMNN_00881-MONOMER 1  glutathione              UNKNOWN   
+           glutathione-regulated potassium-efflux system protein kefb
+           glutathione[cytosol]  ->  glutathione[periplasm]
+Unreviewed NALEJMNN_00881-MONOMER 2  K+                       UNKNOWN   
+           glutathione-regulated potassium-efflux system protein kefb
+           K+[cytosol]  <-->  K+[periplasm]
+Unreviewed NALEJMNN_01822-MONOMER    K+                       UNKNOWN   
+           ktr system potassium uptake protein a
+           K+[periplasm]  <-->  K+[cytosol]
+Unreviewed NALEJMNN_00646-MONOMER 1  melibiose                SECONDARY 
+           melibiose/raffinose/stachyose import permease protein meld
+           melibiose[periplasm] + H+[periplasm]  <-->  melibiose[cytosol] + H+[cytosol]
+Unreviewed NALEJMNN_00646-MONOMER 2  raffinose                SECONDARY 
+           melibiose/raffinose/stachyose import permease protein meld
+           raffinose[periplasm] + H+[periplasm]  ->  raffinose[cytosol] + H+[cytosol]
+Unreviewed NALEJMNN_00646-MONOMER 3  stachyose                SECONDARY 
+           melibiose/raffinose/stachyose import permease protein meld
+           stachyose[periplasm] + H+[periplasm]  ->  stachyose[cytosol] + H+[cytosol]
+Unreviewed NALEJMNN_01410-MONOMER    glycine betaine          SECONDARY 
+           glycine betaine uptake system permease protein yehy
+           glycine betaine[periplasm] + H+[periplasm]  <-->  glycine betaine[cytosol] + H+[cytosol]
+Unreviewed NALEJMNN_01033-MONOMER    phosphate                UNKNOWN   
+           phosphate-import protein phnd
+           phosphate[periplasm]  <-  phosphate[cytosol]
+Unreviewed NALEJMNN_01725-MONOMER    ATP                      UNKNOWN   
+           macrolide export atp-binding/permease protein macb
+           ATP[cytosol]  <-->  ATP[periplasm]
+Unreviewed NALEJMNN_01292-MONOMER    L-aspartate              SECONDARY 
+           aspartate/alanine antiporter
+           L-aspartate[periplasm] + L-alanine[cytosol]  ->  L-aspartate[cytosol] + L-alanine[periplasm]
+Unreviewed NALEJMNN_01616-MONOMER    guanidinium              UNKNOWN   
+           guanidinium exporter
+           guanidinium[cytosol]  ->  guanidinium[periplasm]
+Unreviewed NALEJMNN_02475-MONOMER    myo-inositol             UNKNOWN   
+           major myo-inositol transporter iolt
+           myo-inositol[periplasm]  ->  myo-inositol[cytosol]
+Unreviewed NALEJMNN_00766-MONOMER    L-arginine               UNKNOWN   
+           arginine exporter protein argo
+           L-arginine[cytosol]  <-  L-arginine[periplasm]
+Unreviewed NALEJMNN_03334-MONOMER    N,N'-diacetylchitobiose  SECONDARY 
+           diacetylchitobiose uptake system permease protein ngcf
+           N,N'-diacetylchitobiose[periplasm] + H+[periplasm]  ->  N,N'-diacetylchitobiose[cytosol] + H+[cytosol]
+Unreviewed NALEJMNN_02238-MONOMER    ATP                      UNKNOWN   
+           macrolide export atp-binding/permease protein macb
+           ATP[cytosol]  <-->  ATP[periplasm]
+Unreviewed NALEJMNN_00689-MONOMER 1  glycine betaine          ATP       
+           glycine betaine/carnitine/choline transport system permease protein opucb
+           glycine betaine[periplasm] + ATP + H2O  ->  glycine betaine[cytosol] + ADP + phosphate + H+
+Unreviewed NALEJMNN_00689-MONOMER 2  L-carnitine              ATP       
+           glycine betaine/carnitine/choline transport system permease protein opucb
+           L-carnitine[periplasm] + ATP + H2O  ->  L-carnitine[cytosol] + ADP + phosphate + H+
+Unreviewed NALEJMNN_00689-MONOMER 3  choline                  ATP       
+           glycine betaine/carnitine/choline transport system permease protein opucb
+           choline[periplasm] + ATP + H2O  ->  choline[cytosol] + ADP + phosphate + H+
+Unreviewed NALEJMNN_02950-MONOMER    fluoride                 UNKNOWN   
+           putative fluoride ion transporter crcb
+           fluoride[periplasm]  <-->  fluoride[cytosol]
+Unreviewed NALEJMNN_00915-MONOMER    ATP                      UNKNOWN   
+           putative multidrug export atp-binding/permease protein
+           ATP[cytosol]  <-->  ATP[periplasm]
+Unreviewed NALEJMNN_02160-MONOMER    pyrimidine               SECONDARY 
+           putative pyrimidine permease rutg
+           pyrimidine[periplasm] + H+[periplasm]  ->  pyrimidine[cytosol] + H+[cytosol]
+
+
+Unreviewed NALEJMNN_00231-MONOMER  (no substrate identified)
+Unreviewed NALEJMNN_00294-MONOMER  (no substrate identified)
+Unreviewed NALEJMNN_00379-MONOMER  (no substrate identified)
+Unreviewed NALEJMNN_00413-MONOMER  (no substrate identified)
+Unreviewed NALEJMNN_00647-MONOMER  (no substrate identified)
+Unreviewed NALEJMNN_00765-MONOMER  (no substrate identified)
+Unreviewed NALEJMNN_00782-MONOMER  (no substrate identified)
+Unreviewed NALEJMNN_00926-MONOMER  (no substrate identified)
+Unreviewed NALEJMNN_01051-MONOMER  (no substrate identified)
+Unreviewed NALEJMNN_01062-MONOMER  (no substrate identified)
+Unreviewed NALEJMNN_01298-MONOMER  (no substrate identified)
+Unreviewed NALEJMNN_01314-MONOMER  (no substrate identified)
+Unreviewed NALEJMNN_01354-MONOMER  (no substrate identified)
+Unreviewed NALEJMNN_01404-MONOMER  (no substrate identified)
+Unreviewed NALEJMNN_01440-MONOMER  (no substrate identified)
+Unreviewed NALEJMNN_01506-MONOMER  (no substrate identified)
+Unreviewed NALEJMNN_01513-MONOMER  (no substrate identified)
+Unreviewed NALEJMNN_01540-MONOMER  (no substrate identified)
+Unreviewed NALEJMNN_01582-MONOMER  (no substrate identified)
+Unreviewed NALEJMNN_01678-MONOMER  (no substrate identified)
+Unreviewed NALEJMNN_01684-MONOMER  (no substrate identified)
+Unreviewed NALEJMNN_01833-MONOMER  (no substrate identified)
+Unreviewed NALEJMNN_01878-MONOMER  (no substrate identified)
+Unreviewed NALEJMNN_01890-MONOMER  (no substrate identified)
+Unreviewed NALEJMNN_01941-MONOMER  (no substrate identified)
+Unreviewed NALEJMNN_01943-MONOMER  (no substrate identified)
+Unreviewed NALEJMNN_02179-MONOMER  (no substrate identified)
+Unreviewed NALEJMNN_02218-MONOMER  (no substrate identified)
+Unreviewed NALEJMNN_02346-MONOMER  (no substrate identified)
+Unreviewed NALEJMNN_02410-MONOMER  (no substrate identified)
+Unreviewed NALEJMNN_02411-MONOMER  (no substrate identified)
+Unreviewed NALEJMNN_02528-MONOMER  (no substrate identified)
+Unreviewed NALEJMNN_02567-MONOMER  (no substrate identified)
+Unreviewed NALEJMNN_02572-MONOMER  (no substrate identified)
+Unreviewed NALEJMNN_02583-MONOMER  (no substrate identified)
+Unreviewed NALEJMNN_02594-MONOMER  (no substrate identified)
+Unreviewed NALEJMNN_02745-MONOMER  (no substrate identified)
+Unreviewed NALEJMNN_03047-MONOMER  (no substrate identified)
+Unreviewed NALEJMNN_03077-MONOMER  (no substrate identified)
+Unreviewed NALEJMNN_03117-MONOMER  (no substrate identified)
+Unreviewed NALEJMNN_03253-MONOMER  (no substrate identified)
+Unreviewed NALEJMNN_03260-MONOMER  (no substrate identified)
+Unreviewed NALEJMNN_03279-MONOMER  (no substrate identified)
+Unreviewed NALEJMNN_03348-MONOMER  (no substrate identified)
+Unreviewed NALEJMNN_03353-MONOMER  (no substrate identified)
+Unreviewed NALEJMNN_03354-MONOMER  (no substrate identified)
+Unreviewed NALEJMNN_03356-MONOMER  (no substrate identified)
+Unreviewed NALEJMNN_03357-MONOMER  (no substrate identified)
+Unreviewed NALEJMNN_03404-MONOMER  (no substrate identified)
+Unreviewed NALEJMNN_03411-MONOMER  (no substrate identified)
+Unreviewed NALEJMNN_03535-MONOMER  (no substrate identified)
+Unreviewed NALEJMNN_03547-MONOMER  (no substrate identified)
