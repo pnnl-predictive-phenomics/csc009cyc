@@ -1,0 +1,181 @@
+;;;      ---  GenBank File Parse Results for Curtobacterium strain  ---
+;;;      ---  File: /Users/mahs128/ptools-local/pgdbs/user/csc009cyc/27.5/input/CSC-009-Rep-1_contigs.gbk
+;;;
+;;; This report lists warnings and possible problems that were encountered
+;;; by the GenBank parser used in PathoLogic.
+;;;
+;;; One type of potential problem reported is where a 'gene' feature
+;;; was present, without being followed by an additional feature (such as 'CDS')
+;;; that would have provided additional information about the gene product.
+;;; Potentially, these are erroneous omissions in the Genbank file,
+;;; because it is unclear what the product type should be.
+;;; However, solitary gene features commonly occur among pseudo-genes.
+;;;
+;;;
+;;; If you want to change GenBank annotation file(s) to improve their parsability, 
+;;; then update the files, reinitialize the KB, and re-run the Build.  If you want
+;;; to avoid having to reinitialize in the future, use the Trial Parse 
+;;; command until you are satisfied with the parse results, and only then
+;;; Build.
+
+
+;;;; :::::::: Parsing the genetic element NALEJMNN_1 ::::::::
+
+
+;;;; :::::::: Parsing the genetic element NALEJMNN_2 ::::::::
+
+
+;;;; :::::::: Parsing the genetic element NALEJMNN_3 ::::::::
+
+
+;;;; :::::::: Parsing the genetic element NALEJMNN_4 ::::::::
+
+
+;;;; :::::::: Parsing the genetic element NALEJMNN_5 ::::::::
+
+
+;;;; :::::::: Parsing the genetic element NALEJMNN_6 ::::::::
+
+
+;;;; :::::::: Parsing the genetic element NALEJMNN_7 ::::::::
+
+
+;;;; :::::::: Parsing the genetic element NALEJMNN_8 ::::::::
+
+
+;;;; :::::::: Parsing the genetic element NALEJMNN_9 ::::::::
+
+
+;;;; :::::::: Parsing the genetic element NALEJMNN_10 ::::::::
+
+
+;;;; :::::::: Parsing the genetic element NALEJMNN_11 ::::::::
+
+
+;;;; :::::::: Parsing the genetic element NALEJMNN_12 ::::::::
+
+
+;;;; :::::::: Parsing the genetic element NALEJMNN_13 ::::::::
+
+
+;;;; :::::::: Parsing the genetic element NALEJMNN_14 ::::::::
+
+
+;;;; :::::::: Parsing the genetic element NALEJMNN_15 ::::::::
+
+
+;;;; :::::::: Parsing the genetic element NALEJMNN_16 ::::::::
+
+
+;;;; :::::::: Parsing the genetic element NALEJMNN_17 ::::::::
+
+
+;;;; :::::::: Parsing the genetic element NALEJMNN_18 ::::::::
+
+
+;;;; :::::::: Parsing the genetic element NALEJMNN_19 ::::::::
+
+
+;;;; :::::::: Parsing the genetic element NALEJMNN_20 ::::::::
+
+
+;;;; :::::::: Parsing the genetic element NALEJMNN_21 ::::::::
+
+
+;;;; :::::::: Parsing the genetic element NALEJMNN_22 ::::::::
+
+
+;;;; :::::::: Parsing the genetic element NALEJMNN_23 ::::::::
+
+
+;;;; :::::::: Parsing the genetic element NALEJMNN_24 ::::::::
+
+
+;;;; :::::::: Parsing the genetic element NALEJMNN_25 ::::::::
+
+
+;;;; :::::::: Parsing the genetic element NALEJMNN_26 ::::::::
+
+
+;;;; :::::::: Parsing the genetic element NALEJMNN_27 ::::::::
+
+
+;;;; :::::::: Parsing the genetic element NALEJMNN_28 ::::::::
+
+
+;;;; :::::::: Parsing the genetic element NALEJMNN_29 ::::::::
+
+
+;;;; :::::::: Parsing the genetic element NALEJMNN_30 ::::::::
+
+
+;;;; :::::::: Parsing the genetic element NALEJMNN_31 ::::::::
+
+
+;;;; :::::::: Parsing the genetic element NALEJMNN_32 ::::::::
+
+
+;;;; :::::::: Parsing the genetic element NALEJMNN_33 ::::::::
+
+
+;;;; :::::::: Parsing the genetic element NALEJMNN_34 ::::::::
+
+
+;;;; :::::::: Parsing the genetic element NALEJMNN_35 ::::::::
+
+
+;;;; :::::::: Parsing the genetic element NALEJMNN_36 ::::::::
+
+
+;;;; :::::::: Parsing the genetic element NALEJMNN_37 ::::::::
+
+
+;;;; :::::::: Parsing the genetic element NALEJMNN_38 ::::::::
+
+
+;;;; :::::::: Parsing the genetic element NALEJMNN_39 ::::::::
+
+
+;;;; :::::::: Parsing the genetic element NALEJMNN_40 ::::::::
+
+
+;;;; :::::::: Parsing the genetic element NALEJMNN_41 ::::::::
+
+
+;;;; :::::::: Parsing the genetic element NALEJMNN_42 ::::::::
+
+
+;;;; :::::::: Parsing the genetic element NALEJMNN_43 ::::::::
+
+
+;;;; :::::::: Parsing the genetic element NALEJMNN_44 ::::::::
+
+
+;;;; :::::::: Parsing the genetic element NALEJMNN_45 ::::::::
+
+
+;;;; :::::::: Parsing the genetic element NALEJMNN_46 ::::::::
+
+
+;;;; :::::::: Parsing the genetic element NALEJMNN_47 ::::::::
+
+
+;;;; :::::::: Parsing the genetic element NALEJMNN_48 ::::::::
+
+
+;;;; :::::::: Parsing the genetic element NALEJMNN_49 ::::::::
+
+
+;;;; :::::::: Parsing the genetic element NALEJMNN_50 ::::::::
+
+
+;;;; :::::::: Parsing the genetic element NALEJMNN_51 ::::::::
+
+
+;;;; :::::::: Ignored gene features and qualifiers ::::::::
+
+The Annotation file contains these additional feature qualifiers,
+which have not been processed:
+(/translation= /transl_table= /codon_start= /inference= /strain=
+ /mol_type= /organism=)
+

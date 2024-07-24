@@ -1,0 +1,318 @@
+##	Complex Inference Report: The results of computationally predicting protein complexes.
+##	
+##	For CSC009 version 27.5  'Curtobacterium strain'  on Wed Jun 26, 2024
+##	
+##	
+##	
+####	Summary Statistics
+##	
+CPLX-COUNT-TOTAL-INF	Total count of complexes inferred and newly created	42
+CPLX-COUNT-RXN-BASED	Complexes inferred, created by SHARED REACTIONS	5
+CPLX-COUNT-HYBRID	Complexes created by SHARED REACTIONS and augmented by NAME STRING ANALYSIS	22
+CPLX-COUNT-NAME-BASED	Complexes inferred, created by NAME STRING ANALYSIS	6
+CPLX-COUNT-ABC	Complexes created by ABC TRANSPORTER ANALYSIS	9
+CPLX-COUNT-PRE-EXISTING	Complexes that pre-existed in the PGDB	7
+PP-COUNT-OF-INF-CPLXS	Total count of polypeptides (monomers) in the inferred complexes	103
+PP-LONELY	Polypeptides containing subunit-related words, but with no matching sibling subunits	29
+PP-NOT-RECOGNIZED	Unique polypeptides, NOT recognized as subunit candidates	3395
+PP-INPUT-COUNT	Polypeptide count of the input to complex-inference	3544
+##	
+####	Complexes created, inferred by SHARED REACTIONS
+##	
+##	This first mechanism for inference of protein complexes focuses on multiple polypeptides that
+##	catalyze a common reaction.  A complex is inferred for each set of subunits that catalyze the
+##	same reaction(s), contain subunit-related words in their names, and whose genes are near one
+##	another in the genome. After the complex inference, the reactions are marked as catalyzed
+##	by the complexes instead of by the polypeptides.
+##	
+CPLX-BY-SHARED-RXNS	Cytochrome bc1 complex cytochrome	CPLX1JTJ2R-19
+SUBUNIT-OF-CPLX	Cytochrome bc1 complex cytochrome b subunit	NALEJMNN_02833-MONOMER
+SUBUNIT-OF-CPLX	Cytochrome bc1 complex cytochrome c subunit	NALEJMNN_02831-MONOMER
+##	
+CPLX-BY-SHARED-RXNS	Cytochrome bd-I ubiquinol oxidase	CPLX1JTJ2R-11
+SUBUNIT-OF-CPLX	Cytochrome bd ubiquinol oxidase subunit 1	NALEJMNN_01407-MONOMER
+SUBUNIT-OF-CPLX	Cytochrome bd-I ubiquinol oxidase subunit 2	NALEJMNN_01406-MONOMER
+##	
+CPLX-BY-SHARED-RXNS	PEP-dependent dihydroxyacetone kinase	CPLX1JTJ2R-27
+SUBUNIT-OF-CPLX	PEP-dependent dihydroxyacetone kinase, ADP-binding subunit DhaL	NALEJMNN_02825-MONOMER
+SUBUNIT-OF-CPLX	PEP-dependent dihydroxyacetone kinase, dihydroxyacetone-binding subunit DhaK	NALEJMNN_02826-MONOMER
+SUBUNIT-OF-CPLX	PEP-dependent dihydroxyacetone kinase, phosphoryl donor subunit DhaM	NALEJMNN_02824-MONOMER
+##	
+CPLX-BY-SHARED-RXNS	PTS system N-acetylglucosamine-specific EII	CPLX1JTJ2R-23
+SUBUNIT-OF-CPLX	PTS system N-acetylglucosamine-specific EIIB component	NALEJMNN_01598-MONOMER
+SUBUNIT-OF-CPLX	PTS system N-acetylglucosamine-specific EIIC component	NALEJMNN_01599-MONOMER
+##	
+CPLX-BY-SHARED-RXNS	Ribonucleoside-diphosphate reductase	CPLX1JTJ2R-15
+SUBUNIT-OF-CPLX	Ribonucleoside-diphosphate reductase subunit alpha 2	NALEJMNN_02395-MONOMER
+SUBUNIT-OF-CPLX	Ribonucleoside-diphosphate reductase subunit beta nrdF2	NALEJMNN_02396-MONOMER
+##	
+##	
+####	Complexes created by SHARED REACTIONS and augmented by NAME STRING ANALYSIS
+##	
+##	After complexes were created by shared reactions, sometimes the inference
+##	by name analysis may also find matches with one of the previously created complexes,
+##	given that all polypeptide name strings are analyzed, even of those polypeptides that are
+##	already in a complex.  In such a match, additional polypeptides will be added to the complex
+##	that was based merely on shared reactions, instead of creating a separate but partial complex.
+##	
+CPLX-HYBRID	3-isopropylmalate dehydratase	CPLX1JTJ2R-35
+SUBUNIT-OF-CPLX	3-isopropylmalate dehydratase large subunit	NALEJMNN_02953-MONOMER
+SUBUNIT-OF-CPLX	3-isopropylmalate dehydratase small subunit	NALEJMNN_02954-MONOMER
+##	
+CPLX-HYBRID	3-methyl-2-oxobutanoate dehydrogenase	CPLX1JTJ2R-14
+SUBUNIT-OF-CPLX	3-methyl-2-oxobutanoate dehydrogenase subunit alpha	NALEJMNN_01592-MONOMER
+SUBUNIT-OF-CPLX	3-methyl-2-oxobutanoate dehydrogenase subunit beta	NALEJMNN_01593-MONOMER
+##	
+CPLX-HYBRID	5-oxoprolinase	CPLX1JTJ2R-13
+SUBUNIT-OF-CPLX	5-oxoprolinase subunit A	NALEJMNN_02433-MONOMER
+SUBUNIT-OF-CPLX	5-oxoprolinase subunit C	NALEJMNN_02431-MONOMER
+##	
+CPLX-HYBRID	ATP synthase	CPLX1JTJ2R-33
+SUBUNIT-OF-CPLX	ATP synthase epsilon chain	NALEJMNN_02632-MONOMER
+SUBUNIT-OF-CPLX	ATP synthase gamma chain	NALEJMNN_02630-MONOMER
+SUBUNIT-OF-CPLX	ATP synthase subunit a	NALEJMNN_02625-MONOMER
+SUBUNIT-OF-CPLX	ATP synthase subunit alpha	NALEJMNN_02629-MONOMER
+SUBUNIT-OF-CPLX	ATP synthase subunit b	NALEJMNN_02627-MONOMER
+SUBUNIT-OF-CPLX	ATP synthase subunit beta	NALEJMNN_02631-MONOMER
+SUBUNIT-OF-CPLX	ATP synthase subunit c	NALEJMNN_02626-MONOMER
+SUBUNIT-OF-CPLX	ATP synthase subunit delta	NALEJMNN_02628-MONOMER
+##	
+CPLX-HYBRID	ATP-dependent Clp protease	CPLX1JTJ2R-36
+SUBUNIT-OF-CPLX	ATP-dependent Clp protease ATP-binding subunit ClpC	NALEJMNN_02857-MONOMER
+SUBUNIT-OF-CPLX	ATP-dependent Clp protease ATP-binding subunit ClpC1	NALEJMNN_02087-MONOMER
+SUBUNIT-OF-CPLX	ATP-dependent Clp protease ATP-binding subunit ClpX	NALEJMNN_00472-MONOMER
+SUBUNIT-OF-CPLX	ATP-dependent Clp protease proteolytic subunit 1	NALEJMNN_00468-MONOMER
+SUBUNIT-OF-CPLX	ATP-dependent Clp protease proteolytic subunit 2	NALEJMNN_00469-MONOMER
+##	
+CPLX-HYBRID	Acetolactate synthase	CPLX1JTJ2R-16
+SUBUNIT-OF-CPLX	Acetolactate synthase large subunit IlvB1	NALEJMNN_02073-MONOMER
+SUBUNIT-OF-CPLX	Acetolactate synthase small subunit	NALEJMNN_02074-MONOMER
+##	
+CPLX-HYBRID	Carbamoyl-phosphate synthase	CPLX1JTJ2R-34
+SUBUNIT-OF-CPLX	Carbamoyl-phosphate synthase large chain	NALEJMNN_02682-MONOMER
+SUBUNIT-OF-CPLX	Carbamoyl-phosphate synthase small chain	NALEJMNN_02681-MONOMER
+##	
+CPLX-HYBRID	Cytochrome c oxidase	CPLX1JTJ2R-10
+SUBUNIT-OF-CPLX	Cytochrome c oxidase subunit 2	NALEJMNN_01418-MONOMER
+SUBUNIT-OF-CPLX	putative cytochrome c oxidase subunit 1	NALEJMNN_01417-MONOMER
+##	
+CPLX-HYBRID	DNA gyrase	CPLX1JTJ2R-25
+SUBUNIT-OF-CPLX	DNA gyrase subunit A	NALEJMNN_02279-MONOMER
+SUBUNIT-OF-CPLX	DNA gyrase subunit B	NALEJMNN_02280-MONOMER
+##	
+CPLX-HYBRID	DNA gyrase	CPLX1JTJ2R-24
+SUBUNIT-OF-CPLX	DNA gyrase subunit A	NALEJMNN_01221-MONOMER
+SUBUNIT-OF-CPLX	DNA gyrase subunit B	NALEJMNN_01222-MONOMER
+##	
+CPLX-HYBRID	DNA-directed RNA polymerase	CPLX1JTJ2R-30
+SUBUNIT-OF-CPLX	DNA-directed RNA polymerase subunit alpha	NALEJMNN_00844-MONOMER
+SUBUNIT-OF-CPLX	DNA-directed RNA polymerase subunit beta	NALEJMNN_00792-MONOMER
+SUBUNIT-OF-CPLX	DNA-directed RNA polymerase subunit beta'	NALEJMNN_00793-MONOMER
+SUBUNIT-OF-CPLX	DNA-directed RNA polymerase subunit omega	NALEJMNN_02685-MONOMER
+##	
+CPLX-HYBRID	Exodeoxyribonuclease 7	CPLX1JTJ2R-29
+SUBUNIT-OF-CPLX	Exodeoxyribonuclease 7 large subunit	NALEJMNN_00245-MONOMER
+SUBUNIT-OF-CPLX	Exodeoxyribonuclease 7 small subunit	NALEJMNN_00244-MONOMER
+##	
+CPLX-HYBRID	Glutamate synthase [NADPH]	CPLX1JTJ2R-31
+SUBUNIT-OF-CPLX	Glutamate synthase [NADPH] large chain	NALEJMNN_02706-MONOMER
+SUBUNIT-OF-CPLX	Glutamate synthase [NADPH] small chain	NALEJMNN_02707-MONOMER
+##	
+CPLX-HYBRID	Glutamyl-tRNA(Gln) amidotransferase	CPLX1JTJ2R-32
+SUBUNIT-OF-CPLX	Aspartyl/glutamyl-tRNA(Asn/Gln) amidotransferase subunit B	NALEJMNN_00363-MONOMER
+SUBUNIT-OF-CPLX	Glutamyl-tRNA(Gln) amidotransferase subunit A	NALEJMNN_00362-MONOMER
+SUBUNIT-OF-CPLX	Glutamyl-tRNA(Gln) amidotransferase subunit C	NALEJMNN_00361-MONOMER
+##	
+CPLX-HYBRID	Lipid II isoglutaminyl synthase (glutamine-hydrolyzing)	CPLX1JTJ2R-21
+SUBUNIT-OF-CPLX	Lipid II isoglutaminyl synthase (glutamine-hydrolyzing) subunit GatD	NALEJMNN_01225-MONOMER
+SUBUNIT-OF-CPLX	Lipid II isoglutaminyl synthase (glutamine-hydrolyzing) subunit MurT	NALEJMNN_01226-MONOMER
+##	
+CPLX-HYBRID	NADH-quinone oxidoreductase	CPLX1JTJ2R-17
+SUBUNIT-OF-CPLX	NADH-quinone oxidoreductase subunit F	NALEJMNN_00545-MONOMER
+SUBUNIT-OF-CPLX	NADH-quinone oxidoreductase subunit K	NALEJMNN_01520-MONOMER
+SUBUNIT-OF-CPLX	NADH-quinone oxidoreductase subunit L	NALEJMNN_01519-MONOMER
+SUBUNIT-OF-CPLX	NADH-quinone oxidoreductase subunit M	NALEJMNN_01518-MONOMER
+SUBUNIT-OF-CPLX	NADH-quinone oxidoreductase subunit N	NALEJMNN_01517-MONOMER
+##	
+CPLX-HYBRID	Phenylalanine--tRNA ligase	CPLX1JTJ2R-26
+SUBUNIT-OF-CPLX	Phenylalanine--tRNA ligase alpha subunit	NALEJMNN_01108-MONOMER
+SUBUNIT-OF-CPLX	Phenylalanine--tRNA ligase beta subunit	NALEJMNN_01109-MONOMER
+##	
+CPLX-HYBRID	Phosphoribosylformylglycinamidine synthase	CPLX1JTJ2R-20
+SUBUNIT-OF-CPLX	Phosphoribosylformylglycinamidine synthase subunit PurL	NALEJMNN_00013-MONOMER
+SUBUNIT-OF-CPLX	Phosphoribosylformylglycinamidine synthase subunit PurQ	NALEJMNN_00014-MONOMER
+SUBUNIT-OF-CPLX	Phosphoribosylformylglycinamidine synthase subunit PurS	NALEJMNN_00015-MONOMER
+##	
+CPLX-HYBRID	Pyridoxal 5'-phosphate synthase	CPLX1JTJ2R-22
+SUBUNIT-OF-CPLX	Pyridoxal 5'-phosphate synthase subunit PdxS	NALEJMNN_02852-MONOMER
+SUBUNIT-OF-CPLX	Pyridoxal 5'-phosphate synthase subunit PdxT	NALEJMNN_02851-MONOMER
+##	
+CPLX-HYBRID	Succinate dehydrogenase	CPLX1JTJ2R-12
+SUBUNIT-OF-CPLX	Succinate dehydrogenase flavoprotein subunit	NALEJMNN_01962-MONOMER
+SUBUNIT-OF-CPLX	Succinate dehydrogenase iron-sulfur subunit	NALEJMNN_01961-MONOMER
+##	
+CPLX-HYBRID	Succinate--CoA ligase [ADP-forming]	CPLX1JTJ2R-28
+SUBUNIT-OF-CPLX	Succinate--CoA ligase [ADP-forming] subunit alpha	NALEJMNN_00910-MONOMER
+SUBUNIT-OF-CPLX	Succinate--CoA ligase [ADP-forming] subunit beta	NALEJMNN_00909-MONOMER
+##	
+CPLX-HYBRID	Tryptophan synthase	CPLX1JTJ2R-18
+SUBUNIT-OF-CPLX	Tryptophan synthase alpha chain	NALEJMNN_02704-MONOMER
+SUBUNIT-OF-CPLX	Tryptophan synthase beta chain	NALEJMNN_02703-MONOMER
+##	
+##	
+####	Complexes created, inferred by NAME STRING ANALYSIS
+##	
+##	This third mechanism for inference of protein complexes analyzes shared subunit-related
+##	words in the names of several polypeptides. First, polypeptides are grouped together by
+##	shared 'core strings.' A core string aims to capture the core function of a polypeptide
+##	and is derived from a polypeptide name by removing subunit-related words and other
+##	extraneous markup (for example, the core string for 'tryptophan synthase, subunit alpha'
+##	is simply 'tryptophan synthase'). Next, a complex is created for each such a polypeptide
+##	grouping unless all polypeptides have identical names.
+##	
+CPLX-BY-CORE-STRINGS	Anthranilate synthase	CPLX1JTJ2R-51
+SUBUNIT-OF-CPLX	Anthranilate synthase component 1	NALEJMNN_02699-MONOMER
+SUBUNIT-OF-CPLX	Anthranilate synthase component 2	NALEJMNN_02271-MONOMER
+##	
+CPLX-BY-CORE-STRINGS	Imidazole glycerol phosphate synthase	CPLX1JTJ2R-50
+SUBUNIT-OF-CPLX	Imidazole glycerol phosphate synthase subunit HisF	NALEJMNN_02697-MONOMER
+SUBUNIT-OF-CPLX	Imidazole glycerol phosphate synthase subunit HisH	NALEJMNN_00577-MONOMER
+##	
+CPLX-BY-CORE-STRINGS	Nuclease SbcCD	CPLX1JTJ2R-48
+SUBUNIT-OF-CPLX	Nuclease SbcCD subunit C	NALEJMNN_00069-MONOMER
+SUBUNIT-OF-CPLX	Nuclease SbcCD subunit D	NALEJMNN_00068-MONOMER
+##	
+CPLX-BY-CORE-STRINGS	Protein translocase	CPLX1JTJ2R-49
+SUBUNIT-OF-CPLX	Protein translocase subunit SecA	NALEJMNN_02048-MONOMER
+SUBUNIT-OF-CPLX	Protein translocase subunit SecD	NALEJMNN_02845-MONOMER
+SUBUNIT-OF-CPLX	Protein translocase subunit SecE	NALEJMNN_01866-MONOMER
+SUBUNIT-OF-CPLX	Protein translocase subunit SecF	NALEJMNN_02844-MONOMER
+SUBUNIT-OF-CPLX	Protein translocase subunit SecY	NALEJMNN_00836-MONOMER
+##	
+CPLX-BY-CORE-STRINGS	Protein-methionine-sulfoxide reductase	CPLX1JTJ2R-47
+SUBUNIT-OF-CPLX	Protein-methionine-sulfoxide reductase catalytic subunit MsrP	NALEJMNN_00195-MONOMER
+SUBUNIT-OF-CPLX	Putative protein-methionine-sulfoxide reductase subunit YedZ1	NALEJMNN_02892-MONOMER
+##	
+CPLX-BY-CORE-STRINGS	Ribosomal RNA small subunit methyltransferase	CPLX1JTJ2R-46
+SUBUNIT-OF-CPLX	Ribosomal RNA small subunit methyltransferase A	NALEJMNN_02534-MONOMER
+SUBUNIT-OF-CPLX	Ribosomal RNA small subunit methyltransferase C	NALEJMNN_00571-MONOMER
+SUBUNIT-OF-CPLX	Ribosomal RNA small subunit methyltransferase D	NALEJMNN_02961-MONOMER
+SUBUNIT-OF-CPLX	Ribosomal RNA small subunit methyltransferase E	NALEJMNN_01389-MONOMER
+SUBUNIT-OF-CPLX	Ribosomal RNA small subunit methyltransferase G	NALEJMNN_02291-MONOMER
+SUBUNIT-OF-CPLX	Ribosomal RNA small subunit methyltransferase H	NALEJMNN_01462-MONOMER
+SUBUNIT-OF-CPLX	Ribosomal RNA small subunit methyltransferase I	NALEJMNN_02531-MONOMER
+##	
+##	
+####	Complexes created, inferred by ABC TRANSPORTER ANALYSIS
+##	
+##	This specialized protein complex inference mechanism analyzes the subunits
+##	in one operon, of which some subunits contain the substring 'ABC transport'.
+##	Other subunits in the operon are added to the complex, if they contain words like
+##	'permease', 'ATP-binding', 'substrate binding', or 'periplasmic binding'.
+##	
+CPLX-ABC-TRANSPORT	ABC transporter	CPLX1JTJ2R-43
+SUBUNIT-OF-CPLX	Putative peptide transport permease protein	NALEJMNN_00294-MONOMER
+SUBUNIT-OF-CPLX	putative ABC transporter ATP-binding protein	NALEJMNN_00292-MONOMER
+##	
+CPLX-ABC-TRANSPORT	ABC transporter	CPLX1JTJ2R-42
+SUBUNIT-OF-CPLX	Dipeptide transport system permease protein DppB	NALEJMNN_00288-MONOMER
+SUBUNIT-OF-CPLX	Glutathione transport system permease protein GsiD	NALEJMNN_00289-MONOMER
+SUBUNIT-OF-CPLX	putative ABC transporter ATP-binding protein	NALEJMNN_00290-MONOMER
+##	
+CPLX-ABC-TRANSPORT	ABC transporter	CPLX1JTJ2R-41
+SUBUNIT-OF-CPLX	ATP-binding/permease protein CydD	NALEJMNN_01405-MONOMER
+SUBUNIT-OF-CPLX	putative ABC transporter ATP-binding/permease protein	NALEJMNN_01404-MONOMER
+##	
+CPLX-ABC-TRANSPORT	ABC transporter	CPLX1JTJ2R-40
+SUBUNIT-OF-CPLX	Dipeptide transport system permease protein DppC	NALEJMNN_03397-MONOMER
+SUBUNIT-OF-CPLX	Glutathione transport system permease protein GsiC	NALEJMNN_03398-MONOMER
+SUBUNIT-OF-CPLX	putative ABC transporter ATP-binding protein	NALEJMNN_03396-MONOMER
+##	
+CPLX-ABC-TRANSPORT	Glutathione transport system	CPLX1JTJ2R-8
+SUBUNIT-OF-CPLX	Glutathione transport system permease protein GsiC	NALEJMNN_00481-MONOMER
+SUBUNIT-OF-CPLX	Glutathione transport system permease protein GsiD	NALEJMNN_00480-MONOMER
+SUBUNIT-OF-CPLX	putative ABC transporter ATP-binding protein YejF	NALEJMNN_00479-MONOMER
+##	
+CPLX-ABC-TRANSPORT	Inner membrane ABC transporter	CPLX1JTJ2R-37
+SUBUNIT-OF-CPLX	Inner membrane ABC transporter permease protein YcjP	NALEJMNN_00926-MONOMER
+SUBUNIT-OF-CPLX	Melibiose/raffinose/stachyose import permease protein MelD	NALEJMNN_00925-MONOMER
+##	
+CPLX-ABC-TRANSPORT	Macrolide export	CPLX1JTJ2R-39
+SUBUNIT-OF-CPLX	Macrolide export ATP-binding/permease protein MacB	NALEJMNN_00693-MONOMER
+SUBUNIT-OF-CPLX	putative ABC transporter ATP-binding protein YknY	NALEJMNN_00692-MONOMER
+##	
+CPLX-ABC-TRANSPORT	Macrolide export	CPLX1JTJ2R-38
+SUBUNIT-OF-CPLX	Macrolide export ATP-binding/permease protein MacB	NALEJMNN_01725-MONOMER
+SUBUNIT-OF-CPLX	putative ABC transporter ATP-binding protein YknY	NALEJMNN_01724-MONOMER
+##	
+CPLX-ABC-TRANSPORT	transport system	CPLX1JTJ2R-2
+SUBUNIT-OF-CPLX	Dipeptide transport system permease protein DppB	NALEJMNN_03304-MONOMER
+SUBUNIT-OF-CPLX	Dipeptide transport system permease protein DppC	NALEJMNN_03303-MONOMER
+SUBUNIT-OF-CPLX	Oligopeptide transport ATP-binding protein OppF	NALEJMNN_03301-MONOMER
+SUBUNIT-OF-CPLX	putative ABC transporter ATP-binding protein YejF	NALEJMNN_03302-MONOMER
+##	
+##	
+####	Complexes that pre-existed in the PGDB
+##	
+CPLX-PRE-EXISTING	putative K+ ATP-driven transporter	CPLX1JTJ2R-9
+SUBUNIT-OF-CPLX	Potassium-transporting ATPase KdpC subunit	NALEJMNN_00732-MONOMER
+SUBUNIT-OF-CPLX	Potassium-transporting ATPase potassium-binding subunit	NALEJMNN_00730-MONOMER
+##	
+CPLX-PRE-EXISTING	putative an oligopeptide ATP-driven transporter	CPLX1JTJ2R-1
+SUBUNIT-OF-CPLX	Oligopeptide transport system permease protein OppB	NALEJMNN_00444-MONOMER
+SUBUNIT-OF-CPLX	Oligopeptide transport system permease protein OppC	NALEJMNN_00445-MONOMER
+##	
+CPLX-PRE-EXISTING	putative glutathione ATP-driven transporter	CPLX1JTJ2R-7
+SUBUNIT-OF-CPLX	Glutathione transport system permease protein GsiC	NALEJMNN_02890-MONOMER
+SUBUNIT-OF-CPLX	Glutathione transport system permease protein GsiD	NALEJMNN_02889-MONOMER
+##	
+CPLX-PRE-EXISTING	putative glutathione ATP-driven transporter	CPLX1JTJ2R-6
+SUBUNIT-OF-CPLX	Glutathione transport system permease protein GsiC	NALEJMNN_03322-MONOMER
+SUBUNIT-OF-CPLX	Glutathione transport system permease protein GsiD	NALEJMNN_03323-MONOMER
+##	
+CPLX-PRE-EXISTING	putative iron(III)-enterobactin complex ATP-driven transporter	CPLX1JTJ2R-5
+SUBUNIT-OF-CPLX	Ferric enterobactin transport system permease protein FepD	NALEJMNN_03204-MONOMER
+SUBUNIT-OF-CPLX	Ferric enterobactin transport system permease protein FepG	NALEJMNN_03203-MONOMER
+##	
+CPLX-PRE-EXISTING	putative trehalose ATP-driven transporter	CPLX1JTJ2R-3
+SUBUNIT-OF-CPLX	Trehalose transport system permease protein SugA	NALEJMNN_00167-MONOMER
+SUBUNIT-OF-CPLX	Trehalose transport system permease protein SugB	NALEJMNN_00168-MONOMER
+##	
+CPLX-PRE-EXISTING	putative trehalose ATP-driven transporter	CPLX1JTJ2R-4
+SUBUNIT-OF-CPLX	Trehalose transport system permease protein SugA	NALEJMNN_02941-MONOMER
+SUBUNIT-OF-CPLX	Trehalose transport system permease protein SugB	NALEJMNN_02942-MONOMER
+##	
+##	
+####	 29 Polypeptides containing subunit-related words, but with no matching sibling subunits.
+##	The columns are:
+## Protein ID	Canonicalized core string used for matching	Common Name
+##	
+NALEJMNN_01568-MONOMER	3phenylpropionatecinnamicaciddioxygenaseferredoxinnad+	3-phenylpropionate/cinnamic acid dioxygenase ferredoxin--NAD(+) reductase component
+NALEJMNN_03081-MONOMER	alkanalmonooxygenase	Alkanal monooxygenase alpha chain
+NALEJMNN_01977-MONOMER	ascorbatespecificptssystemeiia	Ascorbate-specific PTS system EIIA component
+NALEJMNN_02832-MONOMER	cytochromebc1complexrieske	Cytochrome bc1 complex Rieske iron-sulfur subunit
+NALEJMNN_01444-MONOMER	dnapolymeraseiii	DNA polymerase III subunit alpha
+NALEJMNN_00703-MONOMER	dtagatose16bisphosphatealdolase	D-tagatose-1,6-bisphosphate aldolase subunit GatY
+NALEJMNN_01211-MONOMER	fattyacidoxidationcomplex	Fatty acid oxidation complex subunit alpha
+NALEJMNN_01180-MONOMER	flagellarhookbasalbodycomplex	Flagellar hook-basal body complex protein FliE
+NALEJMNN_01614-MONOMER	flavindependenttrigonellinemonooxygenase	Flavin-dependent trigonelline monooxygenase, oxygenase component
+NALEJMNN_01258-MONOMER	fructosedehydrogenase	Fructose dehydrogenase large subunit
+NALEJMNN_01849-MONOMER	heptaprenyldiphosphatesynthase	Heptaprenyl diphosphate synthase component 2
+NALEJMNN_02594-MONOMER	ironuptakesystem	Iron uptake system component EfeO
+NALEJMNN_01953-MONOMER	mannitolspecificphosphotransferaseenzymeiia	Mannitol-specific phosphotransferase enzyme IIA component
+NALEJMNN_00105-MONOMER	molybdopterinsynthase	Molybdopterin synthase catalytic subunit 2
+NALEJMNN_01941-MONOMER	multidrugresistanceabctransporter	Multidrug resistance ABC transporter ATP-binding/permease protein BmrA
+NALEJMNN_01524-MONOMER	nad@p@hquinoneoxidoreductase	NAD(P)H-quinone oxidoreductase subunit 3
+NALEJMNN_01522-MONOMER	nad@p@hquinoneoxidoreductasesubunit1chloroplastic	NAD(P)H-quinone oxidoreductase subunit 1, chloroplastic
+NALEJMNN_02893-MONOMER	naphthalene12dioxygenasesalicylate5hydroxylasesystemsferredoxinnad@p@+	Naphthalene 1,2-dioxygenase/salicylate 5-hydroxylase systems, ferredoxin--NAD(P)(+), reductase component
+NALEJMNN_01267-MONOMER	nitrilotriacetatemonooxygenase	Nitrilotriacetate monooxygenase component A
+NALEJMNN_00731-MONOMER	potassiumtransportingatpase	Potassium-transporting ATPase ATP-binding subunit
+NALEJMNN_01989-MONOMER	propionylcoacarboxylasebeta	putative propionyl-CoA carboxylase beta chain 5
+NALEJMNN_03279-MONOMER	ptssystemeiibc	PTS system EIIBC component
+NALEJMNN_01732-MONOMER	ptssystemfructosespecificeiiabc	PTS system fructose-specific EIIABC component
+NALEJMNN_01597-MONOMER	ptssystemglucosespecificeiia	PTS system glucose-specific EIIA component
+NALEJMNN_01952-MONOMER	ptssystemmannitolspecificeiicb	PTS system mannitol-specific EIICB component
+NALEJMNN_01346-MONOMER	pyruvatedehydrogenasee1	Pyruvate dehydrogenase E1 component
+NALEJMNN_02287-MONOMER	ribonucleasep	Ribonuclease P protein component
+NALEJMNN_01711-MONOMER	ribosomalrnalargesubunitmethyltransferase	Ribosomal RNA large subunit methyltransferase G
+NALEJMNN_03029-MONOMER	smallribosomalsubunitbiogenesisgtpase	Small ribosomal subunit biogenesis GTPase RsgA
