@@ -1,0 +1,4326 @@
+;;;; ------------------- Transcription Unit Prediction Results for Curtobacterium strain (CSC009) ------------------
+;;
+;; This report summarizes the results of applying the transcription unit 
+;; predictor to the entire geneome of the organism. If there are experimentally
+;; supported transcription units in the KB, or if a list of known transcription
+;; units is given by the user, the report will include some data about
+;; the accuracy of the predictor, that is, how well it predicted the
+;; transcription units.
+;;
+;; The report also includes a list of all directons (directons are 
+;; groups of contiguous genes that lie in the same DNA strand), and, for
+;; each directon, the list of all experimentally supported or curated TUs and a detailed list of each
+;; predicted TU, including each gene product name, when available.
+
+2452 TUs exist in the PGDB 
+
+Deleting any existing transcription units with computational evidence only...
+Deleted a total of 2452 TUs with computational evidence only, leaving 0 remaining TUs with non-computational evidence.
+Note: Non-computational evidence includes assignment as promoters or terminators, as well as curator assigned common-names or comments
+;;;; -------------------- Summary Statistics --------------------
+Stats before any prediction: 
+
+Total TUs in genetic element NALEJMNN_6: 182
+Total TUs in genetic element NALEJMNN_31: 1
+Total TUs in genetic element NALEJMNN_16: 22
+Total TUs in genetic element NALEJMNN_30: 0
+Total TUs in genetic element NALEJMNN_21: 2
+Total TUs in genetic element NALEJMNN_23: 1
+Total TUs in genetic element NALEJMNN_2: 305
+Total TUs in genetic element NALEJMNN_5: 192
+Total TUs in genetic element NALEJMNN_42: 2
+Total TUs in genetic element NALEJMNN_4: 200
+Total TUs in genetic element NALEJMNN_40: 2
+Total TUs in genetic element NALEJMNN_14: 55
+Total TUs in genetic element NALEJMNN_9: 110
+Total TUs in genetic element NALEJMNN_11: 89
+Total TUs in genetic element NALEJMNN_35: 0
+Total TUs in genetic element NALEJMNN_27: 1
+Total TUs in genetic element NALEJMNN_38: 3
+Total TUs in genetic element NALEJMNN_20: 3
+Total TUs in genetic element NALEJMNN_47: 3
+Total TUs in genetic element NALEJMNN_18: 22
+Total TUs in genetic element NALEJMNN_45: 0
+Total TUs in genetic element NALEJMNN_48: 2
+Total TUs in genetic element NALEJMNN_44: 0
+Total TUs in genetic element NALEJMNN_1: 466
+Total TUs in genetic element NALEJMNN_50: 2
+Total TUs in genetic element NALEJMNN_3: 229
+Total TUs in genetic element NALEJMNN_12: 84
+Total TUs in genetic element NALEJMNN_28: 1
+Total TUs in genetic element NALEJMNN_29: 1
+Total TUs in genetic element NALEJMNN_22: 1
+Total TUs in genetic element NALEJMNN_33: 1
+Total TUs in genetic element NALEJMNN_34: 0
+Total TUs in genetic element NALEJMNN_37: 2
+Total TUs in genetic element NALEJMNN_13: 45
+Total TUs in genetic element NALEJMNN_49: 0
+Total TUs in genetic element NALEJMNN_43: 0
+Total TUs in genetic element NALEJMNN_41: 0
+Total TUs in genetic element NALEJMNN_17: 25
+Total TUs in genetic element NALEJMNN_7: 161
+Total TUs in genetic element NALEJMNN_39: 0
+Total TUs in genetic element NALEJMNN_32: 1
+Total TUs in genetic element NALEJMNN_15: 27
+Total TUs in genetic element NALEJMNN_24: 0
+Total TUs in genetic element NALEJMNN_46: 0
+Total TUs in genetic element NALEJMNN_25: 1
+Total TUs in genetic element NALEJMNN_51: 0
+Total TUs in genetic element NALEJMNN_10: 95
+Total TUs in genetic element NALEJMNN_26: 1
+Total TUs in genetic element NALEJMNN_36: 0
+Total TUs in genetic element NALEJMNN_8: 95
+Total TUs in genetic element NALEJMNN_19: 17
+  Total across genetic elements: 2452
+   TUs with Experimental Evidence in genetic element  NALEJMNN_6: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_31: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_16: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_30: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_21: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_23: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_2: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_5: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_42: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_4: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_40: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_14: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_9: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_11: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_35: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_27: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_38: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_20: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_47: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_18: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_45: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_48: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_44: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_1: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_50: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_3: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_12: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_28: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_29: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_22: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_33: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_34: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_37: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_13: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_49: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_43: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_41: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_17: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_7: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_39: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_32: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_15: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_24: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_46: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_25: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_51: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_10: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_26: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_36: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_8: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_19: 0
+     Total across genetic elements: 0
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_6: 182
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_31: 1
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_16: 22
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_30: 0
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_21: 2
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_23: 1
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_2: 305
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_5: 192
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_42: 2
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_4: 200
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_40: 2
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_14: 55
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_9: 110
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_11: 89
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_35: 0
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_27: 1
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_38: 3
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_20: 3
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_47: 3
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_18: 22
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_45: 0
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_48: 2
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_44: 0
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_1: 466
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_50: 2
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_3: 229
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_12: 84
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_28: 1
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_29: 1
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_22: 1
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_33: 1
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_34: 0
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_37: 2
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_13: 45
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_49: 0
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_43: 0
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_41: 0
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_17: 25
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_7: 161
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_39: 0
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_32: 1
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_15: 27
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_24: 0
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_46: 0
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_25: 1
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_51: 0
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_10: 95
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_26: 1
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_36: 0
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_8: 95
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_19: 17
+    Total across genetic elements: 2452
+Total genes in genetic element NALEJMNN_6: 275
+Total genes in genetic element NALEJMNN_31: 1
+Total genes in genetic element NALEJMNN_16: 34
+Total genes in genetic element NALEJMNN_30: 0
+Total genes in genetic element NALEJMNN_21: 2
+Total genes in genetic element NALEJMNN_23: 1
+Total genes in genetic element NALEJMNN_2: 457
+Total genes in genetic element NALEJMNN_5: 282
+Total genes in genetic element NALEJMNN_42: 4
+Total genes in genetic element NALEJMNN_4: 327
+Total genes in genetic element NALEJMNN_40: 4
+Total genes in genetic element NALEJMNN_14: 76
+Total genes in genetic element NALEJMNN_9: 169
+Total genes in genetic element NALEJMNN_11: 120
+Total genes in genetic element NALEJMNN_35: 0
+Total genes in genetic element NALEJMNN_27: 1
+Total genes in genetic element NALEJMNN_38: 3
+Total genes in genetic element NALEJMNN_20: 4
+Total genes in genetic element NALEJMNN_47: 3
+Total genes in genetic element NALEJMNN_18: 26
+Total genes in genetic element NALEJMNN_45: 0
+Total genes in genetic element NALEJMNN_48: 3
+Total genes in genetic element NALEJMNN_44: 0
+Total genes in genetic element NALEJMNN_1: 661
+Total genes in genetic element NALEJMNN_50: 2
+Total genes in genetic element NALEJMNN_3: 355
+Total genes in genetic element NALEJMNN_12: 115
+Total genes in genetic element NALEJMNN_28: 1
+Total genes in genetic element NALEJMNN_29: 1
+Total genes in genetic element NALEJMNN_22: 1
+Total genes in genetic element NALEJMNN_33: 1
+Total genes in genetic element NALEJMNN_34: 0
+Total genes in genetic element NALEJMNN_37: 3
+Total genes in genetic element NALEJMNN_13: 71
+Total genes in genetic element NALEJMNN_49: 0
+Total genes in genetic element NALEJMNN_43: 0
+Total genes in genetic element NALEJMNN_41: 0
+Total genes in genetic element NALEJMNN_17: 33
+Total genes in genetic element NALEJMNN_7: 240
+Total genes in genetic element NALEJMNN_39: 0
+Total genes in genetic element NALEJMNN_32: 1
+Total genes in genetic element NALEJMNN_15: 38
+Total genes in genetic element NALEJMNN_24: 0
+Total genes in genetic element NALEJMNN_46: 0
+Total genes in genetic element NALEJMNN_25: 1
+Total genes in genetic element NALEJMNN_51: 0
+Total genes in genetic element NALEJMNN_10: 147
+Total genes in genetic element NALEJMNN_26: 1
+Total genes in genetic element NALEJMNN_36: 0
+Total genes in genetic element NALEJMNN_8: 162
+Total genes in genetic element NALEJMNN_19: 24
+    Total genes across genetic elements: 3650
+Genes not present in a TU in genetic element NALEJMNN_6: 0
+Genes not present in a TU in genetic element NALEJMNN_31: 0
+Genes not present in a TU in genetic element NALEJMNN_16: 0
+Genes not present in a TU in genetic element NALEJMNN_30: 0
+Genes not present in a TU in genetic element NALEJMNN_21: 0
+Genes not present in a TU in genetic element NALEJMNN_23: 0
+Genes not present in a TU in genetic element NALEJMNN_2: 0
+Genes not present in a TU in genetic element NALEJMNN_5: 0
+Genes not present in a TU in genetic element NALEJMNN_42: 0
+Genes not present in a TU in genetic element NALEJMNN_4: 0
+Genes not present in a TU in genetic element NALEJMNN_40: 0
+Genes not present in a TU in genetic element NALEJMNN_14: 0
+Genes not present in a TU in genetic element NALEJMNN_9: 0
+Genes not present in a TU in genetic element NALEJMNN_11: 0
+Genes not present in a TU in genetic element NALEJMNN_35: 0
+Genes not present in a TU in genetic element NALEJMNN_27: 0
+Genes not present in a TU in genetic element NALEJMNN_38: 0
+Genes not present in a TU in genetic element NALEJMNN_20: 0
+Genes not present in a TU in genetic element NALEJMNN_47: 0
+Genes not present in a TU in genetic element NALEJMNN_18: 0
+Genes not present in a TU in genetic element NALEJMNN_45: 0
+Genes not present in a TU in genetic element NALEJMNN_48: 0
+Genes not present in a TU in genetic element NALEJMNN_44: 0
+Genes not present in a TU in genetic element NALEJMNN_1: 0
+Genes not present in a TU in genetic element NALEJMNN_50: 0
+Genes not present in a TU in genetic element NALEJMNN_3: 0
+Genes not present in a TU in genetic element NALEJMNN_12: 0
+Genes not present in a TU in genetic element NALEJMNN_28: 0
+Genes not present in a TU in genetic element NALEJMNN_29: 0
+Genes not present in a TU in genetic element NALEJMNN_22: 0
+Genes not present in a TU in genetic element NALEJMNN_33: 0
+Genes not present in a TU in genetic element NALEJMNN_34: 0
+Genes not present in a TU in genetic element NALEJMNN_37: 0
+Genes not present in a TU in genetic element NALEJMNN_13: 0
+Genes not present in a TU in genetic element NALEJMNN_49: 0
+Genes not present in a TU in genetic element NALEJMNN_43: 0
+Genes not present in a TU in genetic element NALEJMNN_41: 0
+Genes not present in a TU in genetic element NALEJMNN_17: 0
+Genes not present in a TU in genetic element NALEJMNN_7: 0
+Genes not present in a TU in genetic element NALEJMNN_39: 0
+Genes not present in a TU in genetic element NALEJMNN_32: 0
+Genes not present in a TU in genetic element NALEJMNN_15: 0
+Genes not present in a TU in genetic element NALEJMNN_24: 0
+Genes not present in a TU in genetic element NALEJMNN_46: 0
+Genes not present in a TU in genetic element NALEJMNN_25: 0
+Genes not present in a TU in genetic element NALEJMNN_51: 0
+Genes not present in a TU in genetic element NALEJMNN_10: 0
+Genes not present in a TU in genetic element NALEJMNN_26: 0
+Genes not present in a TU in genetic element NALEJMNN_36: 0
+Genes not present in a TU in genetic element NALEJMNN_8: 0
+Genes not present in a TU in genetic element NALEJMNN_19: 0
+    Total genes not present in a TU across genetic elements: 0
+Genes present in a TU of length 1 in genetic element NALEJMNN_6: 125
+Genes present in a TU of length 1 in genetic element NALEJMNN_31: 1
+Genes present in a TU of length 1 in genetic element NALEJMNN_16: 17
+Genes present in a TU of length 1 in genetic element NALEJMNN_30: 0
+Genes present in a TU of length 1 in genetic element NALEJMNN_21: 2
+Genes present in a TU of length 1 in genetic element NALEJMNN_23: 1
+Genes present in a TU of length 1 in genetic element NALEJMNN_2: 219
+Genes present in a TU of length 1 in genetic element NALEJMNN_5: 132
+Genes present in a TU of length 1 in genetic element NALEJMNN_42: 0
+Genes present in a TU of length 1 in genetic element NALEJMNN_4: 142
+Genes present in a TU of length 1 in genetic element NALEJMNN_40: 0
+Genes present in a TU of length 1 in genetic element NALEJMNN_14: 44
+Genes present in a TU of length 1 in genetic element NALEJMNN_9: 77
+Genes present in a TU of length 1 in genetic element NALEJMNN_11: 67
+Genes present in a TU of length 1 in genetic element NALEJMNN_35: 0
+Genes present in a TU of length 1 in genetic element NALEJMNN_27: 1
+Genes present in a TU of length 1 in genetic element NALEJMNN_38: 3
+Genes present in a TU of length 1 in genetic element NALEJMNN_20: 2
+Genes present in a TU of length 1 in genetic element NALEJMNN_47: 3
+Genes present in a TU of length 1 in genetic element NALEJMNN_18: 19
+Genes present in a TU of length 1 in genetic element NALEJMNN_45: 0
+Genes present in a TU of length 1 in genetic element NALEJMNN_48: 1
+Genes present in a TU of length 1 in genetic element NALEJMNN_44: 0
+Genes present in a TU of length 1 in genetic element NALEJMNN_1: 344
+Genes present in a TU of length 1 in genetic element NALEJMNN_50: 2
+Genes present in a TU of length 1 in genetic element NALEJMNN_3: 161
+Genes present in a TU of length 1 in genetic element NALEJMNN_12: 61
+Genes present in a TU of length 1 in genetic element NALEJMNN_28: 1
+Genes present in a TU of length 1 in genetic element NALEJMNN_29: 1
+Genes present in a TU of length 1 in genetic element NALEJMNN_22: 1
+Genes present in a TU of length 1 in genetic element NALEJMNN_33: 1
+Genes present in a TU of length 1 in genetic element NALEJMNN_34: 0
+Genes present in a TU of length 1 in genetic element NALEJMNN_37: 1
+Genes present in a TU of length 1 in genetic element NALEJMNN_13: 28
+Genes present in a TU of length 1 in genetic element NALEJMNN_49: 0
+Genes present in a TU of length 1 in genetic element NALEJMNN_43: 0
+Genes present in a TU of length 1 in genetic element NALEJMNN_41: 0
+Genes present in a TU of length 1 in genetic element NALEJMNN_17: 20
+Genes present in a TU of length 1 in genetic element NALEJMNN_7: 113
+Genes present in a TU of length 1 in genetic element NALEJMNN_39: 0
+Genes present in a TU of length 1 in genetic element NALEJMNN_32: 1
+Genes present in a TU of length 1 in genetic element NALEJMNN_15: 21
+Genes present in a TU of length 1 in genetic element NALEJMNN_24: 0
+Genes present in a TU of length 1 in genetic element NALEJMNN_46: 0
+Genes present in a TU of length 1 in genetic element NALEJMNN_25: 1
+Genes present in a TU of length 1 in genetic element NALEJMNN_51: 0
+Genes present in a TU of length 1 in genetic element NALEJMNN_10: 61
+Genes present in a TU of length 1 in genetic element NALEJMNN_26: 1
+Genes present in a TU of length 1 in genetic element NALEJMNN_36: 0
+Genes present in a TU of length 1 in genetic element NALEJMNN_8: 66
+Genes present in a TU of length 1 in genetic element NALEJMNN_19: 12
+    Total genes present in a TU of length 1 across genetic elements: 1753
+Genes present in a TU of length >1 in genetic element NALEJMNN_6: 150
+Genes present in a TU of length >1 in genetic element NALEJMNN_31: 0
+Genes present in a TU of length >1 in genetic element NALEJMNN_16: 17
+Genes present in a TU of length >1 in genetic element NALEJMNN_30: 0
+Genes present in a TU of length >1 in genetic element NALEJMNN_21: 0
+Genes present in a TU of length >1 in genetic element NALEJMNN_23: 0
+Genes present in a TU of length >1 in genetic element NALEJMNN_2: 238
+Genes present in a TU of length >1 in genetic element NALEJMNN_5: 150
+Genes present in a TU of length >1 in genetic element NALEJMNN_42: 4
+Genes present in a TU of length >1 in genetic element NALEJMNN_4: 185
+Genes present in a TU of length >1 in genetic element NALEJMNN_40: 4
+Genes present in a TU of length >1 in genetic element NALEJMNN_14: 32
+Genes present in a TU of length >1 in genetic element NALEJMNN_9: 92
+Genes present in a TU of length >1 in genetic element NALEJMNN_11: 53
+Genes present in a TU of length >1 in genetic element NALEJMNN_35: 0
+Genes present in a TU of length >1 in genetic element NALEJMNN_27: 0
+Genes present in a TU of length >1 in genetic element NALEJMNN_38: 0
+Genes present in a TU of length >1 in genetic element NALEJMNN_20: 2
+Genes present in a TU of length >1 in genetic element NALEJMNN_47: 0
+Genes present in a TU of length >1 in genetic element NALEJMNN_18: 7
+Genes present in a TU of length >1 in genetic element NALEJMNN_45: 0
+Genes present in a TU of length >1 in genetic element NALEJMNN_48: 2
+Genes present in a TU of length >1 in genetic element NALEJMNN_44: 0
+Genes present in a TU of length >1 in genetic element NALEJMNN_1: 317
+Genes present in a TU of length >1 in genetic element NALEJMNN_50: 0
+Genes present in a TU of length >1 in genetic element NALEJMNN_3: 194
+Genes present in a TU of length >1 in genetic element NALEJMNN_12: 54
+Genes present in a TU of length >1 in genetic element NALEJMNN_28: 0
+Genes present in a TU of length >1 in genetic element NALEJMNN_29: 0
+Genes present in a TU of length >1 in genetic element NALEJMNN_22: 0
+Genes present in a TU of length >1 in genetic element NALEJMNN_33: 0
+Genes present in a TU of length >1 in genetic element NALEJMNN_34: 0
+Genes present in a TU of length >1 in genetic element NALEJMNN_37: 2
+Genes present in a TU of length >1 in genetic element NALEJMNN_13: 43
+Genes present in a TU of length >1 in genetic element NALEJMNN_49: 0
+Genes present in a TU of length >1 in genetic element NALEJMNN_43: 0
+Genes present in a TU of length >1 in genetic element NALEJMNN_41: 0
+Genes present in a TU of length >1 in genetic element NALEJMNN_17: 13
+Genes present in a TU of length >1 in genetic element NALEJMNN_7: 127
+Genes present in a TU of length >1 in genetic element NALEJMNN_39: 0
+Genes present in a TU of length >1 in genetic element NALEJMNN_32: 0
+Genes present in a TU of length >1 in genetic element NALEJMNN_15: 17
+Genes present in a TU of length >1 in genetic element NALEJMNN_24: 0
+Genes present in a TU of length >1 in genetic element NALEJMNN_46: 0
+Genes present in a TU of length >1 in genetic element NALEJMNN_25: 0
+Genes present in a TU of length >1 in genetic element NALEJMNN_51: 0
+Genes present in a TU of length >1 in genetic element NALEJMNN_10: 86
+Genes present in a TU of length >1 in genetic element NALEJMNN_26: 0
+Genes present in a TU of length >1 in genetic element NALEJMNN_36: 0
+Genes present in a TU of length >1 in genetic element NALEJMNN_8: 96
+Genes present in a TU of length >1 in genetic element NALEJMNN_19: 12
+    Total genes present in a TU of length >1 across genetic elements: 1897
+
+
+Stats after the prediction run: 
+
+Total TUs in genetic element NALEJMNN_6: 182
+Total TUs in genetic element NALEJMNN_31: 1
+Total TUs in genetic element NALEJMNN_16: 22
+Total TUs in genetic element NALEJMNN_30: 0
+Total TUs in genetic element NALEJMNN_21: 2
+Total TUs in genetic element NALEJMNN_23: 1
+Total TUs in genetic element NALEJMNN_2: 305
+Total TUs in genetic element NALEJMNN_5: 192
+Total TUs in genetic element NALEJMNN_42: 2
+Total TUs in genetic element NALEJMNN_4: 200
+Total TUs in genetic element NALEJMNN_40: 2
+Total TUs in genetic element NALEJMNN_14: 55
+Total TUs in genetic element NALEJMNN_9: 110
+Total TUs in genetic element NALEJMNN_11: 89
+Total TUs in genetic element NALEJMNN_35: 0
+Total TUs in genetic element NALEJMNN_27: 1
+Total TUs in genetic element NALEJMNN_38: 3
+Total TUs in genetic element NALEJMNN_20: 3
+Total TUs in genetic element NALEJMNN_47: 3
+Total TUs in genetic element NALEJMNN_18: 22
+Total TUs in genetic element NALEJMNN_45: 0
+Total TUs in genetic element NALEJMNN_48: 2
+Total TUs in genetic element NALEJMNN_44: 0
+Total TUs in genetic element NALEJMNN_1: 466
+Total TUs in genetic element NALEJMNN_50: 2
+Total TUs in genetic element NALEJMNN_3: 229
+Total TUs in genetic element NALEJMNN_12: 83
+Total TUs in genetic element NALEJMNN_28: 1
+Total TUs in genetic element NALEJMNN_29: 1
+Total TUs in genetic element NALEJMNN_22: 1
+Total TUs in genetic element NALEJMNN_33: 1
+Total TUs in genetic element NALEJMNN_34: 0
+Total TUs in genetic element NALEJMNN_37: 2
+Total TUs in genetic element NALEJMNN_13: 45
+Total TUs in genetic element NALEJMNN_49: 0
+Total TUs in genetic element NALEJMNN_43: 0
+Total TUs in genetic element NALEJMNN_41: 0
+Total TUs in genetic element NALEJMNN_17: 25
+Total TUs in genetic element NALEJMNN_7: 161
+Total TUs in genetic element NALEJMNN_39: 0
+Total TUs in genetic element NALEJMNN_32: 1
+Total TUs in genetic element NALEJMNN_15: 27
+Total TUs in genetic element NALEJMNN_24: 0
+Total TUs in genetic element NALEJMNN_46: 0
+Total TUs in genetic element NALEJMNN_25: 1
+Total TUs in genetic element NALEJMNN_51: 0
+Total TUs in genetic element NALEJMNN_10: 95
+Total TUs in genetic element NALEJMNN_26: 1
+Total TUs in genetic element NALEJMNN_36: 0
+Total TUs in genetic element NALEJMNN_8: 95
+Total TUs in genetic element NALEJMNN_19: 17
+  Total across genetic elements: 2451
+   TUs with Experimental Evidence in genetic element  NALEJMNN_6: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_31: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_16: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_30: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_21: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_23: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_2: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_5: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_42: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_4: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_40: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_14: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_9: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_11: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_35: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_27: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_38: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_20: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_47: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_18: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_45: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_48: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_44: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_1: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_50: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_3: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_12: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_28: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_29: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_22: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_33: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_34: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_37: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_13: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_49: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_43: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_41: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_17: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_7: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_39: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_32: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_15: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_24: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_46: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_25: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_51: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_10: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_26: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_36: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_8: 0
+   TUs with Experimental Evidence in genetic element  NALEJMNN_19: 0
+     Total across genetic elements: 0
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_6: 182
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_31: 1
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_16: 22
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_30: 0
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_21: 2
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_23: 1
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_2: 305
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_5: 192
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_42: 2
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_4: 200
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_40: 2
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_14: 55
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_9: 110
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_11: 89
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_35: 0
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_27: 1
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_38: 3
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_20: 3
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_47: 3
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_18: 22
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_45: 0
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_48: 2
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_44: 0
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_1: 466
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_50: 2
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_3: 229
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_12: 83
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_28: 1
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_29: 1
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_22: 1
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_33: 1
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_34: 0
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_37: 2
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_13: 45
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_49: 0
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_43: 0
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_41: 0
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_17: 25
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_7: 161
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_39: 0
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_32: 1
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_15: 27
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_24: 0
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_46: 0
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_25: 1
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_51: 0
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_10: 95
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_26: 1
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_36: 0
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_8: 95
+   TUs with only non-experimental evidence in genetic element  NALEJMNN_19: 17
+    Total across genetic elements: 2451
+Total genes in genetic element NALEJMNN_6: 275
+Total genes in genetic element NALEJMNN_31: 1
+Total genes in genetic element NALEJMNN_16: 34
+Total genes in genetic element NALEJMNN_30: 0
+Total genes in genetic element NALEJMNN_21: 2
+Total genes in genetic element NALEJMNN_23: 1
+Total genes in genetic element NALEJMNN_2: 457
+Total genes in genetic element NALEJMNN_5: 282
+Total genes in genetic element NALEJMNN_42: 4
+Total genes in genetic element NALEJMNN_4: 327
+Total genes in genetic element NALEJMNN_40: 4
+Total genes in genetic element NALEJMNN_14: 76
+Total genes in genetic element NALEJMNN_9: 169
+Total genes in genetic element NALEJMNN_11: 120
+Total genes in genetic element NALEJMNN_35: 0
+Total genes in genetic element NALEJMNN_27: 1
+Total genes in genetic element NALEJMNN_38: 3
+Total genes in genetic element NALEJMNN_20: 4
+Total genes in genetic element NALEJMNN_47: 3
+Total genes in genetic element NALEJMNN_18: 26
+Total genes in genetic element NALEJMNN_45: 0
+Total genes in genetic element NALEJMNN_48: 3
+Total genes in genetic element NALEJMNN_44: 0
+Total genes in genetic element NALEJMNN_1: 661
+Total genes in genetic element NALEJMNN_50: 2
+Total genes in genetic element NALEJMNN_3: 355
+Total genes in genetic element NALEJMNN_12: 115
+Total genes in genetic element NALEJMNN_28: 1
+Total genes in genetic element NALEJMNN_29: 1
+Total genes in genetic element NALEJMNN_22: 1
+Total genes in genetic element NALEJMNN_33: 1
+Total genes in genetic element NALEJMNN_34: 0
+Total genes in genetic element NALEJMNN_37: 3
+Total genes in genetic element NALEJMNN_13: 71
+Total genes in genetic element NALEJMNN_49: 0
+Total genes in genetic element NALEJMNN_43: 0
+Total genes in genetic element NALEJMNN_41: 0
+Total genes in genetic element NALEJMNN_17: 33
+Total genes in genetic element NALEJMNN_7: 240
+Total genes in genetic element NALEJMNN_39: 0
+Total genes in genetic element NALEJMNN_32: 1
+Total genes in genetic element NALEJMNN_15: 38
+Total genes in genetic element NALEJMNN_24: 0
+Total genes in genetic element NALEJMNN_46: 0
+Total genes in genetic element NALEJMNN_25: 1
+Total genes in genetic element NALEJMNN_51: 0
+Total genes in genetic element NALEJMNN_10: 147
+Total genes in genetic element NALEJMNN_26: 1
+Total genes in genetic element NALEJMNN_36: 0
+Total genes in genetic element NALEJMNN_8: 162
+Total genes in genetic element NALEJMNN_19: 24
+    Total genes across genetic elements: 3650
+Genes not present in a TU in genetic element NALEJMNN_6: 0
+Genes not present in a TU in genetic element NALEJMNN_31: 0
+Genes not present in a TU in genetic element NALEJMNN_16: 0
+Genes not present in a TU in genetic element NALEJMNN_30: 0
+Genes not present in a TU in genetic element NALEJMNN_21: 0
+Genes not present in a TU in genetic element NALEJMNN_23: 0
+Genes not present in a TU in genetic element NALEJMNN_2: 0
+Genes not present in a TU in genetic element NALEJMNN_5: 0
+Genes not present in a TU in genetic element NALEJMNN_42: 0
+Genes not present in a TU in genetic element NALEJMNN_4: 0
+Genes not present in a TU in genetic element NALEJMNN_40: 0
+Genes not present in a TU in genetic element NALEJMNN_14: 0
+Genes not present in a TU in genetic element NALEJMNN_9: 0
+Genes not present in a TU in genetic element NALEJMNN_11: 0
+Genes not present in a TU in genetic element NALEJMNN_35: 0
+Genes not present in a TU in genetic element NALEJMNN_27: 0
+Genes not present in a TU in genetic element NALEJMNN_38: 0
+Genes not present in a TU in genetic element NALEJMNN_20: 0
+Genes not present in a TU in genetic element NALEJMNN_47: 0
+Genes not present in a TU in genetic element NALEJMNN_18: 0
+Genes not present in a TU in genetic element NALEJMNN_45: 0
+Genes not present in a TU in genetic element NALEJMNN_48: 0
+Genes not present in a TU in genetic element NALEJMNN_44: 0
+Genes not present in a TU in genetic element NALEJMNN_1: 0
+Genes not present in a TU in genetic element NALEJMNN_50: 0
+Genes not present in a TU in genetic element NALEJMNN_3: 0
+Genes not present in a TU in genetic element NALEJMNN_12: 0
+Genes not present in a TU in genetic element NALEJMNN_28: 0
+Genes not present in a TU in genetic element NALEJMNN_29: 0
+Genes not present in a TU in genetic element NALEJMNN_22: 0
+Genes not present in a TU in genetic element NALEJMNN_33: 0
+Genes not present in a TU in genetic element NALEJMNN_34: 0
+Genes not present in a TU in genetic element NALEJMNN_37: 0
+Genes not present in a TU in genetic element NALEJMNN_13: 0
+Genes not present in a TU in genetic element NALEJMNN_49: 0
+Genes not present in a TU in genetic element NALEJMNN_43: 0
+Genes not present in a TU in genetic element NALEJMNN_41: 0
+Genes not present in a TU in genetic element NALEJMNN_17: 0
+Genes not present in a TU in genetic element NALEJMNN_7: 0
+Genes not present in a TU in genetic element NALEJMNN_39: 0
+Genes not present in a TU in genetic element NALEJMNN_32: 0
+Genes not present in a TU in genetic element NALEJMNN_15: 0
+Genes not present in a TU in genetic element NALEJMNN_24: 0
+Genes not present in a TU in genetic element NALEJMNN_46: 0
+Genes not present in a TU in genetic element NALEJMNN_25: 0
+Genes not present in a TU in genetic element NALEJMNN_51: 0
+Genes not present in a TU in genetic element NALEJMNN_10: 0
+Genes not present in a TU in genetic element NALEJMNN_26: 0
+Genes not present in a TU in genetic element NALEJMNN_36: 0
+Genes not present in a TU in genetic element NALEJMNN_8: 0
+Genes not present in a TU in genetic element NALEJMNN_19: 0
+    Total genes not present in a TU across genetic elements: 0
+Genes present in a TU of length 1 in genetic element NALEJMNN_6: 125
+Genes present in a TU of length 1 in genetic element NALEJMNN_31: 1
+Genes present in a TU of length 1 in genetic element NALEJMNN_16: 17
+Genes present in a TU of length 1 in genetic element NALEJMNN_30: 0
+Genes present in a TU of length 1 in genetic element NALEJMNN_21: 2
+Genes present in a TU of length 1 in genetic element NALEJMNN_23: 1
+Genes present in a TU of length 1 in genetic element NALEJMNN_2: 219
+Genes present in a TU of length 1 in genetic element NALEJMNN_5: 132
+Genes present in a TU of length 1 in genetic element NALEJMNN_42: 0
+Genes present in a TU of length 1 in genetic element NALEJMNN_4: 142
+Genes present in a TU of length 1 in genetic element NALEJMNN_40: 0
+Genes present in a TU of length 1 in genetic element NALEJMNN_14: 44
+Genes present in a TU of length 1 in genetic element NALEJMNN_9: 77
+Genes present in a TU of length 1 in genetic element NALEJMNN_11: 67
+Genes present in a TU of length 1 in genetic element NALEJMNN_35: 0
+Genes present in a TU of length 1 in genetic element NALEJMNN_27: 1
+Genes present in a TU of length 1 in genetic element NALEJMNN_38: 3
+Genes present in a TU of length 1 in genetic element NALEJMNN_20: 2
+Genes present in a TU of length 1 in genetic element NALEJMNN_47: 3
+Genes present in a TU of length 1 in genetic element NALEJMNN_18: 19
+Genes present in a TU of length 1 in genetic element NALEJMNN_45: 0
+Genes present in a TU of length 1 in genetic element NALEJMNN_48: 1
+Genes present in a TU of length 1 in genetic element NALEJMNN_44: 0
+Genes present in a TU of length 1 in genetic element NALEJMNN_1: 344
+Genes present in a TU of length 1 in genetic element NALEJMNN_50: 2
+Genes present in a TU of length 1 in genetic element NALEJMNN_3: 161
+Genes present in a TU of length 1 in genetic element NALEJMNN_12: 59
+Genes present in a TU of length 1 in genetic element NALEJMNN_28: 1
+Genes present in a TU of length 1 in genetic element NALEJMNN_29: 1
+Genes present in a TU of length 1 in genetic element NALEJMNN_22: 1
+Genes present in a TU of length 1 in genetic element NALEJMNN_33: 1
+Genes present in a TU of length 1 in genetic element NALEJMNN_34: 0
+Genes present in a TU of length 1 in genetic element NALEJMNN_37: 1
+Genes present in a TU of length 1 in genetic element NALEJMNN_13: 28
+Genes present in a TU of length 1 in genetic element NALEJMNN_49: 0
+Genes present in a TU of length 1 in genetic element NALEJMNN_43: 0
+Genes present in a TU of length 1 in genetic element NALEJMNN_41: 0
+Genes present in a TU of length 1 in genetic element NALEJMNN_17: 20
+Genes present in a TU of length 1 in genetic element NALEJMNN_7: 113
+Genes present in a TU of length 1 in genetic element NALEJMNN_39: 0
+Genes present in a TU of length 1 in genetic element NALEJMNN_32: 1
+Genes present in a TU of length 1 in genetic element NALEJMNN_15: 21
+Genes present in a TU of length 1 in genetic element NALEJMNN_24: 0
+Genes present in a TU of length 1 in genetic element NALEJMNN_46: 0
+Genes present in a TU of length 1 in genetic element NALEJMNN_25: 1
+Genes present in a TU of length 1 in genetic element NALEJMNN_51: 0
+Genes present in a TU of length 1 in genetic element NALEJMNN_10: 61
+Genes present in a TU of length 1 in genetic element NALEJMNN_26: 1
+Genes present in a TU of length 1 in genetic element NALEJMNN_36: 0
+Genes present in a TU of length 1 in genetic element NALEJMNN_8: 66
+Genes present in a TU of length 1 in genetic element NALEJMNN_19: 12
+    Total genes present in a TU of length 1 across genetic elements: 1751
+Genes present in a TU of length >1 in genetic element NALEJMNN_6: 150
+Genes present in a TU of length >1 in genetic element NALEJMNN_31: 0
+Genes present in a TU of length >1 in genetic element NALEJMNN_16: 17
+Genes present in a TU of length >1 in genetic element NALEJMNN_30: 0
+Genes present in a TU of length >1 in genetic element NALEJMNN_21: 0
+Genes present in a TU of length >1 in genetic element NALEJMNN_23: 0
+Genes present in a TU of length >1 in genetic element NALEJMNN_2: 238
+Genes present in a TU of length >1 in genetic element NALEJMNN_5: 150
+Genes present in a TU of length >1 in genetic element NALEJMNN_42: 4
+Genes present in a TU of length >1 in genetic element NALEJMNN_4: 185
+Genes present in a TU of length >1 in genetic element NALEJMNN_40: 4
+Genes present in a TU of length >1 in genetic element NALEJMNN_14: 32
+Genes present in a TU of length >1 in genetic element NALEJMNN_9: 92
+Genes present in a TU of length >1 in genetic element NALEJMNN_11: 53
+Genes present in a TU of length >1 in genetic element NALEJMNN_35: 0
+Genes present in a TU of length >1 in genetic element NALEJMNN_27: 0
+Genes present in a TU of length >1 in genetic element NALEJMNN_38: 0
+Genes present in a TU of length >1 in genetic element NALEJMNN_20: 2
+Genes present in a TU of length >1 in genetic element NALEJMNN_47: 0
+Genes present in a TU of length >1 in genetic element NALEJMNN_18: 7
+Genes present in a TU of length >1 in genetic element NALEJMNN_45: 0
+Genes present in a TU of length >1 in genetic element NALEJMNN_48: 2
+Genes present in a TU of length >1 in genetic element NALEJMNN_44: 0
+Genes present in a TU of length >1 in genetic element NALEJMNN_1: 317
+Genes present in a TU of length >1 in genetic element NALEJMNN_50: 0
+Genes present in a TU of length >1 in genetic element NALEJMNN_3: 194
+Genes present in a TU of length >1 in genetic element NALEJMNN_12: 56
+Genes present in a TU of length >1 in genetic element NALEJMNN_28: 0
+Genes present in a TU of length >1 in genetic element NALEJMNN_29: 0
+Genes present in a TU of length >1 in genetic element NALEJMNN_22: 0
+Genes present in a TU of length >1 in genetic element NALEJMNN_33: 0
+Genes present in a TU of length >1 in genetic element NALEJMNN_34: 0
+Genes present in a TU of length >1 in genetic element NALEJMNN_37: 2
+Genes present in a TU of length >1 in genetic element NALEJMNN_13: 43
+Genes present in a TU of length >1 in genetic element NALEJMNN_49: 0
+Genes present in a TU of length >1 in genetic element NALEJMNN_43: 0
+Genes present in a TU of length >1 in genetic element NALEJMNN_41: 0
+Genes present in a TU of length >1 in genetic element NALEJMNN_17: 13
+Genes present in a TU of length >1 in genetic element NALEJMNN_7: 127
+Genes present in a TU of length >1 in genetic element NALEJMNN_39: 0
+Genes present in a TU of length >1 in genetic element NALEJMNN_32: 0
+Genes present in a TU of length >1 in genetic element NALEJMNN_15: 17
+Genes present in a TU of length >1 in genetic element NALEJMNN_24: 0
+Genes present in a TU of length >1 in genetic element NALEJMNN_46: 0
+Genes present in a TU of length >1 in genetic element NALEJMNN_25: 0
+Genes present in a TU of length >1 in genetic element NALEJMNN_51: 0
+Genes present in a TU of length >1 in genetic element NALEJMNN_10: 86
+Genes present in a TU of length >1 in genetic element NALEJMNN_26: 0
+Genes present in a TU of length >1 in genetic element NALEJMNN_36: 0
+Genes present in a TU of length >1 in genetic element NALEJMNN_8: 96
+Genes present in a TU of length >1 in genetic element NALEJMNN_19: 12
+    Total genes present in a TU of length >1 across genetic elements: 1899
+;;;; ------------------------ Summary and Performance Statistics -------------------- 
+
+Directons: 0 - Long: 0 - Single gene: 0
+Total Predicted TUs: 0
+Predicted operons: 0
+;;;; -------------------- Directons with known and predicted TUs  ----------------------
+
+
+
+;;;; ------------------ Directons of Genetic Element NALEJMNN_19 --------------------
+
+
+Directon: ("NALEJMNN_03607" "NALEJMNN_03608" "NALEJMNN_03609"
+           "NALEJMNN_03610" "NALEJMNN_03611" "NALEJMNN_03612")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03604" "NALEJMNN_03605" "NALEJMNN_03606")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03601" "NALEJMNN_03602")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03596" "NALEJMNN_03597" "NALEJMNN_03598"
+           "NALEJMNN_03599")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03589" "NALEJMNN_03590" "NALEJMNN_03591"
+           "NALEJMNN_03592" "NALEJMNN_03593" "NALEJMNN_03594")
+Experimentally supported TUs: None
+Predicted:
+
+
+;;;; ------------------ Directons of Genetic Element NALEJMNN_8 --------------------
+
+
+Directon: ("NALEJMNN_02755" "NALEJMNN_02756" "NALEJMNN_02757"
+           "NALEJMNN_02758" "NALEJMNN_02759")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02747" "NALEJMNN_02748" "NALEJMNN_02749"
+           "NALEJMNN_02750" "NALEJMNN_02751" "NALEJMNN_02752")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02736" "NALEJMNN_02737" "NALEJMNN_02738"
+           "NALEJMNN_02739" "NALEJMNN_02740" "NALEJMNN_02741"
+           "NALEJMNN_02742" "NALEJMNN_02743" "NALEJMNN_02744"
+           "NALEJMNN_02745" "NALEJMNN_02746")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02728" "NALEJMNN_02729" "NALEJMNN_02730"
+           "NALEJMNN_02731" "NALEJMNN_02732" "NALEJMNN_02733"
+           "NALEJMNN_02734")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02722" "NALEJMNN_02723" "NALEJMNN_02724"
+           "NALEJMNN_02725" "NALEJMNN_02726")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02716" "NALEJMNN_02717" "NALEJMNN_02718"
+           "NALEJMNN_02719" "NALEJMNN_02720")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02711" "NALEJMNN_02712" "NALEJMNN_02713"
+           "NALEJMNN_02714")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02693" "NALEJMNN_02694" "NALEJMNN_02695"
+           "NALEJMNN_02696" "NALEJMNN_02697" "NALEJMNN_02698"
+           "NALEJMNN_02699" "NALEJMNN_02700" "NALEJMNN_02701"
+           "NALEJMNN_02702" "NALEJMNN_02703" "NALEJMNN_02704"
+           "NALEJMNN_02705" "NALEJMNN_02706" "NALEJMNN_02707"
+           "NALEJMNN_02708" "NALEJMNN_02709")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02690" "NALEJMNN_02691")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02688" "NALEJMNN_02689")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02665" "NALEJMNN_02666" "NALEJMNN_02667"
+           "NALEJMNN_02668" "NALEJMNN_02669" "NALEJMNN_02670"
+           "NALEJMNN_02671" "NALEJMNN_02672" "NALEJMNN_02673"
+           "NALEJMNN_02674" "NALEJMNN_02675" "NALEJMNN_02676"
+           "NALEJMNN_02677" "NALEJMNN_02678" "NALEJMNN_02679"
+           "NALEJMNN_02680" "NALEJMNN_02681" "NALEJMNN_02682"
+           "NALEJMNN_02683" "NALEJMNN_02684" "NALEJMNN_02685"
+           "NALEJMNN_02686" "NALEJMNN_02687")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02663" "NALEJMNN_02664")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02658" "NALEJMNN_02659" "NALEJMNN_02660"
+           "NALEJMNN_02661" "NALEJMNN_02662")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02645" "NALEJMNN_02646" "NALEJMNN_02647"
+           "NALEJMNN_02648" "NALEJMNN_02649" "NALEJMNN_02650"
+           "NALEJMNN_02651" "NALEJMNN_02652" "NALEJMNN_02653"
+           "NALEJMNN_02654" "NALEJMNN_02655" "NALEJMNN_02656")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02622" "NALEJMNN_02623" "NALEJMNN_02624"
+           "NALEJMNN_02625" "NALEJMNN_02626" "NALEJMNN_02627"
+           "NALEJMNN_02628" "NALEJMNN_02629" "NALEJMNN_02630"
+           "NALEJMNN_02631" "NALEJMNN_02632" "NALEJMNN_02633"
+           "NALEJMNN_02634" "NALEJMNN_02635" "NALEJMNN_02636"
+           "NALEJMNN_02637" "NALEJMNN_02638" "NALEJMNN_02639"
+           "NALEJMNN_02640" "NALEJMNN_02641" "NALEJMNN_02642"
+           "NALEJMNN_02643")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02612" "NALEJMNN_02613" "NALEJMNN_02614"
+           "NALEJMNN_02615" "NALEJMNN_02616" "NALEJMNN_02617"
+           "NALEJMNN_02618" "NALEJMNN_02619" "NALEJMNN_02620")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02607" "NALEJMNN_02608" "NALEJMNN_02609"
+           "NALEJMNN_02610" "NALEJMNN_02611")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02603" "NALEJMNN_02604")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02598" "NALEJMNN_02599" "NALEJMNN_02600"
+           "NALEJMNN_02601" "NALEJMNN_02602")
+Experimentally supported TUs: None
+Predicted:
+
+
+;;;; ------------------ Directons of Genetic Element NALEJMNN_10 --------------------
+
+
+Directon: ("NALEJMNN_03074" "NALEJMNN_03075")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03068" "NALEJMNN_03069" "NALEJMNN_03070"
+           "NALEJMNN_03071" "NALEJMNN_03072" "NALEJMNN_03073")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03063" "NALEJMNN_03064")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03060" "NALEJMNN_03061" "NALEJMNN_03062")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03054" "NALEJMNN_03055" "NALEJMNN_03056"
+           "NALEJMNN_03057" "NALEJMNN_03058")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03048" "NALEJMNN_03049" "NALEJMNN_03050"
+           "NALEJMNN_03051" "NALEJMNN_03052" "NALEJMNN_03053")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03044" "NALEJMNN_03045" "NALEJMNN_03046"
+           "NALEJMNN_03047")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03038" "NALEJMNN_03039" "NALEJMNN_03040"
+           "NALEJMNN_03041")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03033" "NALEJMNN_03034")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03031" "NALEJMNN_03032")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03027" "NALEJMNN_03028" "NALEJMNN_03029"
+           "NALEJMNN_03030")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03020" "NALEJMNN_03021" "NALEJMNN_03022"
+           "NALEJMNN_03023" "NALEJMNN_03024" "NALEJMNN_03025")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03012" "NALEJMNN_03013" "NALEJMNN_03014"
+           "NALEJMNN_03015" "NALEJMNN_03016" "NALEJMNN_03017"
+           "NALEJMNN_03018" "NALEJMNN_03019")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03009" "NALEJMNN_03010" "NALEJMNN_03011")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03007" "NALEJMNN_03008")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02996" "NALEJMNN_02997" "NALEJMNN_02998"
+           "NALEJMNN_02999" "NALEJMNN_03000" "NALEJMNN_03001"
+           "NALEJMNN_03002" "NALEJMNN_03003" "NALEJMNN_03004"
+           "NALEJMNN_03005")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02986" "NALEJMNN_02987" "NALEJMNN_02988"
+           "NALEJMNN_02989" "NALEJMNN_02990" "NALEJMNN_02991"
+           "NALEJMNN_02992" "NALEJMNN_02993" "NALEJMNN_02994")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02977" "NALEJMNN_02978" "NALEJMNN_02979"
+           "NALEJMNN_02980" "NALEJMNN_02981" "NALEJMNN_02982"
+           "NALEJMNN_02983" "NALEJMNN_02984")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02974" "NALEJMNN_02975")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02972" "NALEJMNN_02973")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02969" "NALEJMNN_02970")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02962" "NALEJMNN_02963" "NALEJMNN_02964"
+           "NALEJMNN_02965" "NALEJMNN_02966" "NALEJMNN_02967"
+           "NALEJMNN_02968")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02953" "NALEJMNN_02954" "NALEJMNN_02955"
+           "NALEJMNN_02956" "NALEJMNN_02957" "NALEJMNN_02958")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02947" "NALEJMNN_02948" "NALEJMNN_02949"
+           "NALEJMNN_02950" "NALEJMNN_02951")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02940" "NALEJMNN_02941" "NALEJMNN_02942"
+           "NALEJMNN_02943" "NALEJMNN_02944" "NALEJMNN_02945")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02934" "NALEJMNN_02935" "NALEJMNN_02936"
+           "NALEJMNN_02937")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02929" "NALEJMNN_02930" "NALEJMNN_02931"
+           "NALEJMNN_02932" "NALEJMNN_02933")
+Experimentally supported TUs: None
+Predicted:
+
+
+;;;; ------------------ Directons of Genetic Element NALEJMNN_15 --------------------
+
+
+Directon: ("NALEJMNN_03489" "NALEJMNN_03490" "NALEJMNN_03491")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03487" "NALEJMNN_03488")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03480" "NALEJMNN_03481" "NALEJMNN_03482"
+           "NALEJMNN_03483" "NALEJMNN_03484" "NALEJMNN_03485"
+           "NALEJMNN_03486")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03474" "NALEJMNN_03475" "NALEJMNN_03476"
+           "NALEJMNN_03477" "NALEJMNN_03478" "NALEJMNN_03479")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03472" "NALEJMNN_03473")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03468" "NALEJMNN_03469" "NALEJMNN_03470"
+           "NALEJMNN_03471")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03463" "NALEJMNN_03464")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03460" "NALEJMNN_03461" "NALEJMNN_03462")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03458" "NALEJMNN_03459")
+Experimentally supported TUs: None
+Predicted:
+
+
+;;;; ------------------ Directons of Genetic Element NALEJMNN_7 --------------------
+
+
+Directon: ("NALEJMNN_02596" "NALEJMNN_02597")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02593" "NALEJMNN_02594" "NALEJMNN_02595")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02591" "NALEJMNN_02592")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02586" "NALEJMNN_02587" "NALEJMNN_02588"
+           "NALEJMNN_02589" "NALEJMNN_02590")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02579" "NALEJMNN_02580" "NALEJMNN_02581"
+           "NALEJMNN_02582")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02577" "NALEJMNN_02578")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02574" "NALEJMNN_02575" "NALEJMNN_02576")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02571" "NALEJMNN_02572" "NALEJMNN_02573")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02566" "NALEJMNN_02567" "NALEJMNN_02568"
+           "NALEJMNN_02569" "NALEJMNN_02570")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02564" "NALEJMNN_02565")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02557" "NALEJMNN_02558" "NALEJMNN_02559"
+           "NALEJMNN_02560" "NALEJMNN_02561")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02552" "NALEJMNN_02553" "NALEJMNN_02554"
+           "NALEJMNN_02555")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02549" "NALEJMNN_02550" "NALEJMNN_02551")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02543" "NALEJMNN_02544" "NALEJMNN_02545"
+           "NALEJMNN_02546" "NALEJMNN_02547" "NALEJMNN_02548")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02537" "NALEJMNN_02538" "NALEJMNN_02539"
+           "NALEJMNN_02540" "NALEJMNN_02541")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02535" "NALEJMNN_02536")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02531" "NALEJMNN_02532" "NALEJMNN_02533"
+           "NALEJMNN_02534")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02522" "NALEJMNN_02523" "NALEJMNN_02524"
+           "NALEJMNN_02525" "NALEJMNN_02526" "NALEJMNN_02527"
+           "NALEJMNN_02528")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02517" "NALEJMNN_02518" "NALEJMNN_02519"
+           "NALEJMNN_02520")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02515" "NALEJMNN_02516")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02511" "NALEJMNN_02512" "NALEJMNN_02513"
+           "NALEJMNN_02514")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02509" "NALEJMNN_02510")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02505" "NALEJMNN_02506" "NALEJMNN_02507")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02496" "NALEJMNN_02497" "NALEJMNN_02498"
+           "NALEJMNN_02499" "NALEJMNN_02500" "NALEJMNN_02501"
+           "NALEJMNN_02502" "NALEJMNN_02503" "NALEJMNN_02504")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02492" "NALEJMNN_02493" "NALEJMNN_02494")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02488" "NALEJMNN_02489" "NALEJMNN_02490"
+           "NALEJMNN_02491")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02486" "NALEJMNN_02487")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02481" "NALEJMNN_02482" "NALEJMNN_02483"
+           "NALEJMNN_02484" "NALEJMNN_02485")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02477" "NALEJMNN_02478" "NALEJMNN_02479"
+           "NALEJMNN_02480")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02474" "NALEJMNN_02475" "NALEJMNN_02476")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02469" "NALEJMNN_02470" "NALEJMNN_02471"
+           "NALEJMNN_02472")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02457" "NALEJMNN_02458" "NALEJMNN_02459"
+           "NALEJMNN_02460" "NALEJMNN_02461" "NALEJMNN_02462"
+           "NALEJMNN_02463" "NALEJMNN_02464" "NALEJMNN_02465"
+           "NALEJMNN_02466" "NALEJMNN_02467" "NALEJMNN_02468")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02454" "NALEJMNN_02455" "NALEJMNN_02456")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02449" "NALEJMNN_02450")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02443" "NALEJMNN_02444" "NALEJMNN_02445"
+           "NALEJMNN_02446")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02440" "NALEJMNN_02441" "NALEJMNN_02442")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02436" "NALEJMNN_02437" "NALEJMNN_02438"
+           "NALEJMNN_02439")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02434" "NALEJMNN_02435")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02430" "NALEJMNN_02431" "NALEJMNN_02432"
+           "NALEJMNN_02433")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02426" "NALEJMNN_02427" "NALEJMNN_02428"
+           "NALEJMNN_02429")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02420" "NALEJMNN_02421" "NALEJMNN_02422"
+           "NALEJMNN_02423")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02416" "NALEJMNN_02417" "NALEJMNN_02418")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02414" "NALEJMNN_02415")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02408" "NALEJMNN_02409" "NALEJMNN_02410"
+           "NALEJMNN_02411" "NALEJMNN_02412")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02406" "NALEJMNN_02407")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02403" "NALEJMNN_02404")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02400" "NALEJMNN_02401" "NALEJMNN_02402")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02393" "NALEJMNN_02394" "NALEJMNN_02395"
+           "NALEJMNN_02396")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02390" "NALEJMNN_02391" "NALEJMNN_02392")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02385" "NALEJMNN_02386" "NALEJMNN_02387"
+           "NALEJMNN_02388")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02383" "NALEJMNN_02384")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02378" "NALEJMNN_02379")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02375" "NALEJMNN_02376")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02372" "NALEJMNN_02373")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02358" "NALEJMNN_02359" "NALEJMNN_02360"
+           "NALEJMNN_02361" "NALEJMNN_02362" "NALEJMNN_02363"
+           "NALEJMNN_02364" "NALEJMNN_02365" "NALEJMNN_02366"
+           "NALEJMNN_02367" "NALEJMNN_02368")
+Experimentally supported TUs: None
+Predicted:
+
+
+;;;; ------------------ Directons of Genetic Element NALEJMNN_17 --------------------
+
+
+Directon: ("NALEJMNN_03559" "NALEJMNN_03560")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03557" "NALEJMNN_03558")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03555" "NALEJMNN_03556")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03553" "NALEJMNN_03554")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03550" "NALEJMNN_03551" "NALEJMNN_03552")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03547" "NALEJMNN_03548")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03538" "NALEJMNN_03539" "NALEJMNN_03540"
+           "NALEJMNN_03541" "NALEJMNN_03542" "NALEJMNN_03543")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03534" "NALEJMNN_03535" "NALEJMNN_03536"
+           "NALEJMNN_03537")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03530" "NALEJMNN_03531" "NALEJMNN_03532")
+Experimentally supported TUs: None
+Predicted:
+
+
+;;;; ------------------ Directons of Genetic Element NALEJMNN_13 --------------------
+
+
+Directon: ("NALEJMNN_03366" "NALEJMNN_03367" "NALEJMNN_03368"
+           "NALEJMNN_03369" "NALEJMNN_03370" "NALEJMNN_03371"
+           "NALEJMNN_03372" "NALEJMNN_03373" "NALEJMNN_03374"
+           "NALEJMNN_03375" "NALEJMNN_03376" "NALEJMNN_03377"
+           "NALEJMNN_03378" "NALEJMNN_03379" "NALEJMNN_03380")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03360" "NALEJMNN_03361" "NALEJMNN_03362")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03356" "NALEJMNN_03357" "NALEJMNN_03358"
+           "NALEJMNN_03359")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03352" "NALEJMNN_03353" "NALEJMNN_03354")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03346" "NALEJMNN_03347" "NALEJMNN_03348"
+           "NALEJMNN_03349")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03344" "NALEJMNN_03345")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03341" "NALEJMNN_03342")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03337" "NALEJMNN_03338" "NALEJMNN_03339")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03332" "NALEJMNN_03333" "NALEJMNN_03334"
+           "NALEJMNN_03335")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03322" "NALEJMNN_03323" "NALEJMNN_03324"
+           "NALEJMNN_03325" "NALEJMNN_03326" "NALEJMNN_03327"
+           "NALEJMNN_03328" "NALEJMNN_03329" "NALEJMNN_03330"
+           "NALEJMNN_03331")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03315" "NALEJMNN_03316" "NALEJMNN_03317"
+           "NALEJMNN_03318" "NALEJMNN_03319" "NALEJMNN_03320"
+           "NALEJMNN_03321")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03313" "NALEJMNN_03314")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03311" "NALEJMNN_03312")
+Experimentally supported TUs: None
+Predicted:
+
+
+;;;; ------------------ Directons of Genetic Element NALEJMNN_37 --------------------
+
+
+Directon: ("NALEJMNN_03630" "NALEJMNN_03631")
+Experimentally supported TUs: None
+Predicted:
+
+
+;;;; ------------------ Directons of Genetic Element NALEJMNN_12 --------------------
+
+
+Directon: ("NALEJMNN_03307" "NALEJMNN_03308" "NALEJMNN_03309"
+           "NALEJMNN_03310")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03300" "NALEJMNN_03301" "NALEJMNN_03302"
+           "NALEJMNN_03303" "NALEJMNN_03304" "NALEJMNN_03305")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03294" "NALEJMNN_03295" "NALEJMNN_03296"
+           "NALEJMNN_03297")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03289" "NALEJMNN_03290" "NALEJMNN_03291"
+           "NALEJMNN_03292" "NALEJMNN_03293")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03285" "NALEJMNN_03286")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03282" "NALEJMNN_03283" "NALEJMNN_03284")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03271" "NALEJMNN_03272" "NALEJMNN_03273"
+           "NALEJMNN_03274" "NALEJMNN_03275" "NALEJMNN_03276"
+           "NALEJMNN_03277" "NALEJMNN_03278" "NALEJMNN_03279"
+           "NALEJMNN_03280" "NALEJMNN_03281")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03269" "NALEJMNN_03270")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03263" "NALEJMNN_03264" "NALEJMNN_03265"
+           "NALEJMNN_03266")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03261" "NALEJMNN_03262")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03255" "NALEJMNN_03256" "NALEJMNN_03257")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03253" "NALEJMNN_03254")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03249" "NALEJMNN_03250" "NALEJMNN_03251")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03245" "NALEJMNN_03246" "NALEJMNN_03247")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03238" "NALEJMNN_03239" "NALEJMNN_03240"
+           "NALEJMNN_03241" "NALEJMNN_03242" "NALEJMNN_03243")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03236" "NALEJMNN_03237")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03234" "NALEJMNN_03235")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03231" "NALEJMNN_03232")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03229" "NALEJMNN_03230")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03227" "NALEJMNN_03228")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03217" "NALEJMNN_03218" "NALEJMNN_03219"
+           "NALEJMNN_03220")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03214" "NALEJMNN_03215" "NALEJMNN_03216")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03209" "NALEJMNN_03210" "NALEJMNN_03211"
+           "NALEJMNN_03212" "NALEJMNN_03213")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03206" "NALEJMNN_03207")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03200" "NALEJMNN_03201" "NALEJMNN_03202"
+           "NALEJMNN_03203" "NALEJMNN_03204")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03196" "NALEJMNN_03197" "NALEJMNN_03198")
+Experimentally supported TUs: None
+Predicted:
+
+
+;;;; ------------------ Directons of Genetic Element NALEJMNN_18 --------------------
+
+
+Directon: ("NALEJMNN_03586" "NALEJMNN_03587" "NALEJMNN_03588")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03583" "NALEJMNN_03584")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03575" "NALEJMNN_03576" "NALEJMNN_03577"
+           "NALEJMNN_03578" "NALEJMNN_03579")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03568" "NALEJMNN_03569" "NALEJMNN_03570"
+           "NALEJMNN_03571" "NALEJMNN_03572" "NALEJMNN_03573")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03565" "NALEJMNN_03566" "NALEJMNN_03567")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03563" "NALEJMNN_03564")
+Experimentally supported TUs: None
+Predicted:
+
+
+;;;; ------------------ Directons of Genetic Element NALEJMNN_50 --------------------
+
+
+Directon: ("NALEJMNN_03649" "NALEJMNN_03650")
+Experimentally supported TUs: None
+Predicted:
+
+
+;;;; ------------------ Directons of Genetic Element NALEJMNN_48 --------------------
+
+
+Directon: ("NALEJMNN_03646" "NALEJMNN_03647" "NALEJMNN_03648")
+Experimentally supported TUs: None
+Predicted:
+
+
+;;;; ------------------ Directons of Genetic Element NALEJMNN_3 --------------------
+
+
+Directon: ("NALEJMNN_01469" "NALEJMNN_01470" "NALEJMNN_01471")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01467" "NALEJMNN_01468")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01443" "NALEJMNN_01444" "NALEJMNN_01445"
+           "NALEJMNN_01446" "NALEJMNN_01447" "NALEJMNN_01448"
+           "NALEJMNN_01449" "NALEJMNN_01450" "NALEJMNN_01451"
+           "NALEJMNN_01452" "NALEJMNN_01453" "NALEJMNN_01454"
+           "NALEJMNN_01455" "NALEJMNN_01456" "NALEJMNN_01457"
+           "NALEJMNN_01458" "NALEJMNN_01459" "NALEJMNN_01460"
+           "NALEJMNN_01461" "NALEJMNN_01462" "NALEJMNN_01463"
+           "NALEJMNN_01464")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01441" "NALEJMNN_01442")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01433" "NALEJMNN_01434" "NALEJMNN_01435"
+           "NALEJMNN_01436" "NALEJMNN_01437" "NALEJMNN_01438"
+           "NALEJMNN_01439" "NALEJMNN_01440")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01431" "NALEJMNN_01432")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01429" "NALEJMNN_01430")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01425" "NALEJMNN_01426" "NALEJMNN_01427"
+           "NALEJMNN_01428")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01422" "NALEJMNN_01423" "NALEJMNN_01424")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01415" "NALEJMNN_01416" "NALEJMNN_01417"
+           "NALEJMNN_01418" "NALEJMNN_01419" "NALEJMNN_01420")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01413" "NALEJMNN_01414")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01402" "NALEJMNN_01403" "NALEJMNN_01404"
+           "NALEJMNN_01405" "NALEJMNN_01406" "NALEJMNN_01407"
+           "NALEJMNN_01408" "NALEJMNN_01409" "NALEJMNN_01410"
+           "NALEJMNN_01411" "NALEJMNN_01412")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01397" "NALEJMNN_01398")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01377" "NALEJMNN_01378" "NALEJMNN_01379"
+           "NALEJMNN_01380" "NALEJMNN_01381" "NALEJMNN_01382"
+           "NALEJMNN_01383" "NALEJMNN_01384" "NALEJMNN_01385"
+           "NALEJMNN_01386" "NALEJMNN_01387" "NALEJMNN_01388"
+           "NALEJMNN_01389" "NALEJMNN_01390" "NALEJMNN_01391")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01372" "NALEJMNN_01373" "NALEJMNN_01374"
+           "NALEJMNN_01375")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01368" "NALEJMNN_01369" "NALEJMNN_01370")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01359" "NALEJMNN_01360" "NALEJMNN_01361"
+           "NALEJMNN_01362" "NALEJMNN_01363" "NALEJMNN_01364"
+           "NALEJMNN_01365" "NALEJMNN_01366")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01352" "NALEJMNN_01353" "NALEJMNN_01354"
+           "NALEJMNN_01355" "NALEJMNN_01356" "NALEJMNN_01357")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01346" "NALEJMNN_01347" "NALEJMNN_01348"
+           "NALEJMNN_01349" "NALEJMNN_01350" "NALEJMNN_01351")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01344" "NALEJMNN_01345")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01339" "NALEJMNN_01340" "NALEJMNN_01341"
+           "NALEJMNN_01342" "NALEJMNN_01343")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01337" "NALEJMNN_01338")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01332" "NALEJMNN_01333" "NALEJMNN_01334"
+           "NALEJMNN_01335" "NALEJMNN_01336")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01320" "NALEJMNN_01321" "NALEJMNN_01322"
+           "NALEJMNN_01323" "NALEJMNN_01324" "NALEJMNN_01325"
+           "NALEJMNN_01326" "NALEJMNN_01327")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01314" "NALEJMNN_01315" "NALEJMNN_01316"
+           "NALEJMNN_01317" "NALEJMNN_01318")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01308" "NALEJMNN_01309" "NALEJMNN_01310")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01306" "NALEJMNN_01307")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01304" "NALEJMNN_01305")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01299" "NALEJMNN_01300" "NALEJMNN_01301"
+           "NALEJMNN_01302" "NALEJMNN_01303")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01297" "NALEJMNN_01298")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01294" "NALEJMNN_01295" "NALEJMNN_01296")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01290" "NALEJMNN_01291" "NALEJMNN_01292"
+           "NALEJMNN_01293")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01286" "NALEJMNN_01287")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01281" "NALEJMNN_01282" "NALEJMNN_01283")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01278" "NALEJMNN_01279" "NALEJMNN_01280")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01276" "NALEJMNN_01277")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01274" "NALEJMNN_01275")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01270" "NALEJMNN_01271")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01266" "NALEJMNN_01267" "NALEJMNN_01268")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01262" "NALEJMNN_01263" "NALEJMNN_01264"
+           "NALEJMNN_01265")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01258" "NALEJMNN_01259" "NALEJMNN_01260"
+           "NALEJMNN_01261")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01255" "NALEJMNN_01256" "NALEJMNN_01257")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01245" "NALEJMNN_01246" "NALEJMNN_01247"
+           "NALEJMNN_01248" "NALEJMNN_01249" "NALEJMNN_01250"
+           "NALEJMNN_01251" "NALEJMNN_01252" "NALEJMNN_01253"
+           "NALEJMNN_01254")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01243" "NALEJMNN_01244")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01237" "NALEJMNN_01238" "NALEJMNN_01239"
+           "NALEJMNN_01240" "NALEJMNN_01241" "NALEJMNN_01242")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01230" "NALEJMNN_01231" "NALEJMNN_01232")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01224" "NALEJMNN_01225" "NALEJMNN_01226"
+           "NALEJMNN_01227" "NALEJMNN_01228" "NALEJMNN_01229")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01212" "NALEJMNN_01213" "NALEJMNN_01214"
+           "NALEJMNN_01215" "NALEJMNN_01216")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01208" "NALEJMNN_01209" "NALEJMNN_01210"
+           "NALEJMNN_01211")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01200" "NALEJMNN_01201" "NALEJMNN_01202"
+           "NALEJMNN_01203" "NALEJMNN_01204" "NALEJMNN_01205"
+           "NALEJMNN_01206")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01198" "NALEJMNN_01199")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01195" "NALEJMNN_01196")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01188" "NALEJMNN_01189" "NALEJMNN_01190"
+           "NALEJMNN_01191" "NALEJMNN_01192")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01171" "NALEJMNN_01172" "NALEJMNN_01173"
+           "NALEJMNN_01174" "NALEJMNN_01175" "NALEJMNN_01176"
+           "NALEJMNN_01177" "NALEJMNN_01178" "NALEJMNN_01179"
+           "NALEJMNN_01180" "NALEJMNN_01181" "NALEJMNN_01182"
+           "NALEJMNN_01183" "NALEJMNN_01184" "NALEJMNN_01185"
+           "NALEJMNN_01186" "NALEJMNN_01187")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01169" "NALEJMNN_01170")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01160" "NALEJMNN_01161" "NALEJMNN_01162"
+           "NALEJMNN_01163" "NALEJMNN_01164" "NALEJMNN_01165"
+           "NALEJMNN_01166" "NALEJMNN_01167" "NALEJMNN_01168")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01155" "NALEJMNN_01156" "NALEJMNN_01157"
+           "NALEJMNN_01158" "NALEJMNN_01159")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01152" "NALEJMNN_01153" "NALEJMNN_01154")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01149" "NALEJMNN_01150" "NALEJMNN_01151")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01147" "NALEJMNN_01148")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01144" "NALEJMNN_01145")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01136" "NALEJMNN_01137" "NALEJMNN_01138"
+           "NALEJMNN_01139" "NALEJMNN_01140" "NALEJMNN_01141"
+           "NALEJMNN_01142" "NALEJMNN_01143")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01123" "NALEJMNN_01124" "NALEJMNN_01125"
+           "NALEJMNN_01126" "NALEJMNN_01127" "NALEJMNN_01128"
+           "NALEJMNN_01129" "NALEJMNN_01130" "NALEJMNN_01131"
+           "NALEJMNN_01132" "NALEJMNN_01133" "NALEJMNN_01134"
+           "NALEJMNN_01135")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01120" "NALEJMNN_01121")
+Experimentally supported TUs: None
+Predicted:
+
+
+;;;; ------------------ Directons of Genetic Element NALEJMNN_1 --------------------
+
+
+Directon: ("NALEJMNN_00657" "NALEJMNN_00658" "NALEJMNN_00659"
+           "NALEJMNN_00660" "NALEJMNN_00661")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00653" "NALEJMNN_00654" "NALEJMNN_00655"
+           "NALEJMNN_00656")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00649" "NALEJMNN_00650" "NALEJMNN_00651"
+           "NALEJMNN_00652")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00645" "NALEJMNN_00646" "NALEJMNN_00647"
+           "NALEJMNN_00648")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00643" "NALEJMNN_00644")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00640" "NALEJMNN_00641")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00638" "NALEJMNN_00639")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00634" "NALEJMNN_00635" "NALEJMNN_00636"
+           "NALEJMNN_00637")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00625" "NALEJMNN_00626" "NALEJMNN_00627"
+           "NALEJMNN_00628" "NALEJMNN_00629" "NALEJMNN_00630"
+           "NALEJMNN_00631" "NALEJMNN_00632")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00622" "NALEJMNN_00623" "NALEJMNN_00624")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00620" "NALEJMNN_00621")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00617" "NALEJMNN_00618" "NALEJMNN_00619")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00612" "NALEJMNN_00613" "NALEJMNN_00614")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00601" "NALEJMNN_00602" "NALEJMNN_00603"
+           "NALEJMNN_00604" "NALEJMNN_00605" "NALEJMNN_00606"
+           "NALEJMNN_00607" "NALEJMNN_00608")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00596" "NALEJMNN_00597" "NALEJMNN_00598"
+           "NALEJMNN_00599")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00591" "NALEJMNN_00592" "NALEJMNN_00593"
+           "NALEJMNN_00594" "NALEJMNN_00595")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00589" "NALEJMNN_00590")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00574" "NALEJMNN_00575" "NALEJMNN_00576"
+           "NALEJMNN_00577" "NALEJMNN_00578" "NALEJMNN_00579"
+           "NALEJMNN_00580" "NALEJMNN_00581" "NALEJMNN_00582"
+           "NALEJMNN_00583" "NALEJMNN_00584" "NALEJMNN_00585"
+           "NALEJMNN_00586" "NALEJMNN_00587" "NALEJMNN_00588")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00557" "NALEJMNN_00558" "NALEJMNN_00559"
+           "NALEJMNN_00560" "NALEJMNN_00561" "NALEJMNN_00562"
+           "NALEJMNN_00563" "NALEJMNN_00564" "NALEJMNN_00565"
+           "NALEJMNN_00566" "NALEJMNN_00567" "NALEJMNN_00568"
+           "NALEJMNN_00569" "NALEJMNN_00570")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00554" "NALEJMNN_00555")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00551" "NALEJMNN_00552")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00549" "NALEJMNN_00550")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00539" "NALEJMNN_00540" "NALEJMNN_00541"
+           "NALEJMNN_00542" "NALEJMNN_00543" "NALEJMNN_00544"
+           "NALEJMNN_00545" "NALEJMNN_00546")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00536" "NALEJMNN_00537" "NALEJMNN_00538")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00533" "NALEJMNN_00534" "NALEJMNN_00535")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00531" "NALEJMNN_00532")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00528" "NALEJMNN_00529" "NALEJMNN_00530")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00525" "NALEJMNN_00526" "NALEJMNN_00527")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00522" "NALEJMNN_00523")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00519" "NALEJMNN_00520")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00515" "NALEJMNN_00516")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00511" "NALEJMNN_00512")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00496" "NALEJMNN_00497" "NALEJMNN_00498"
+           "NALEJMNN_00499" "NALEJMNN_00500" "NALEJMNN_00501"
+           "NALEJMNN_00502" "NALEJMNN_00503" "NALEJMNN_00504"
+           "NALEJMNN_00505" "NALEJMNN_00506" "NALEJMNN_00507"
+           "NALEJMNN_00508" "NALEJMNN_00509" "NALEJMNN_00510")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00493" "NALEJMNN_00494")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00491" "NALEJMNN_00492")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00486" "NALEJMNN_00487" "NALEJMNN_00488"
+           "NALEJMNN_00489" "NALEJMNN_00490")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00483" "NALEJMNN_00484")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00479" "NALEJMNN_00480" "NALEJMNN_00481"
+           "NALEJMNN_00482")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00476" "NALEJMNN_00477")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00473" "NALEJMNN_00474")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00470" "NALEJMNN_00471")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00465" "NALEJMNN_00466" "NALEJMNN_00467"
+           "NALEJMNN_00468" "NALEJMNN_00469")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00457" "NALEJMNN_00458" "NALEJMNN_00459"
+           "NALEJMNN_00460" "NALEJMNN_00461" "NALEJMNN_00462"
+           "NALEJMNN_00463")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00452" "NALEJMNN_00453" "NALEJMNN_00454")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00450" "NALEJMNN_00451")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00442" "NALEJMNN_00443" "NALEJMNN_00444"
+           "NALEJMNN_00445" "NALEJMNN_00446" "NALEJMNN_00447"
+           "NALEJMNN_00448")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00440" "NALEJMNN_00441")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00437" "NALEJMNN_00438" "NALEJMNN_00439")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00432" "NALEJMNN_00433" "NALEJMNN_00434")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00430" "NALEJMNN_00431")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00427" "NALEJMNN_00428")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00423" "NALEJMNN_00424" "NALEJMNN_00425")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00421" "NALEJMNN_00422")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00417" "NALEJMNN_00418" "NALEJMNN_00419")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00415" "NALEJMNN_00416")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00410" "NALEJMNN_00411" "NALEJMNN_00412"
+           "NALEJMNN_00413" "NALEJMNN_00414")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00408" "NALEJMNN_00409")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00403" "NALEJMNN_00404" "NALEJMNN_00405"
+           "NALEJMNN_00406")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00400" "NALEJMNN_00401" "NALEJMNN_00402")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00392" "NALEJMNN_00393" "NALEJMNN_00394"
+           "NALEJMNN_00395" "NALEJMNN_00396" "NALEJMNN_00397"
+           "NALEJMNN_00398" "NALEJMNN_00399")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00388" "NALEJMNN_00389" "NALEJMNN_00390"
+           "NALEJMNN_00391")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00382" "NALEJMNN_00383" "NALEJMNN_00384"
+           "NALEJMNN_00385")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00380" "NALEJMNN_00381")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00371" "NALEJMNN_00372" "NALEJMNN_00373"
+           "NALEJMNN_00374" "NALEJMNN_00375" "NALEJMNN_00376"
+           "NALEJMNN_00377" "NALEJMNN_00378" "NALEJMNN_00379")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00369" "NALEJMNN_00370")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00367" "NALEJMNN_00368")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00357" "NALEJMNN_00358" "NALEJMNN_00359"
+           "NALEJMNN_00360" "NALEJMNN_00361" "NALEJMNN_00362"
+           "NALEJMNN_00363" "NALEJMNN_00364" "NALEJMNN_00365")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00354" "NALEJMNN_00355" "NALEJMNN_00356")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00351" "NALEJMNN_00352" "NALEJMNN_00353")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00347" "NALEJMNN_00348" "NALEJMNN_00349")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00343" "NALEJMNN_00344" "NALEJMNN_00345"
+           "NALEJMNN_00346")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00338" "NALEJMNN_00339" "NALEJMNN_00340"
+           "NALEJMNN_00341" "NALEJMNN_00342")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00333" "NALEJMNN_00334" "NALEJMNN_00335"
+           "NALEJMNN_00336")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00331" "NALEJMNN_00332")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00329" "NALEJMNN_00330")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00326" "NALEJMNN_00327")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00324" "NALEJMNN_00325")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00319" "NALEJMNN_00320")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00313" "NALEJMNN_00314" "NALEJMNN_00315"
+           "NALEJMNN_00316" "NALEJMNN_00317")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00307" "NALEJMNN_00308" "NALEJMNN_00309"
+           "NALEJMNN_00310")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00299" "NALEJMNN_00300" "NALEJMNN_00301"
+           "NALEJMNN_00302" "NALEJMNN_00303" "NALEJMNN_00304"
+           "NALEJMNN_00305")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00296" "NALEJMNN_00297" "NALEJMNN_00298")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00292" "NALEJMNN_00293" "NALEJMNN_00294")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00284" "NALEJMNN_00285" "NALEJMNN_00286"
+           "NALEJMNN_00287" "NALEJMNN_00288" "NALEJMNN_00289"
+           "NALEJMNN_00290" "NALEJMNN_00291")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00280" "NALEJMNN_00281" "NALEJMNN_00282"
+           "NALEJMNN_00283")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00277" "NALEJMNN_00278")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00273" "NALEJMNN_00274")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00271" "NALEJMNN_00272")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00265" "NALEJMNN_00266" "NALEJMNN_00267"
+           "NALEJMNN_00268")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00263" "NALEJMNN_00264")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00252" "NALEJMNN_00253" "NALEJMNN_00254"
+           "NALEJMNN_00255" "NALEJMNN_00256" "NALEJMNN_00257"
+           "NALEJMNN_00258" "NALEJMNN_00259" "NALEJMNN_00260"
+           "NALEJMNN_00261" "NALEJMNN_00262")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00248" "NALEJMNN_00249")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00246" "NALEJMNN_00247")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00241" "NALEJMNN_00242" "NALEJMNN_00243"
+           "NALEJMNN_00244" "NALEJMNN_00245")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00238" "NALEJMNN_00239" "NALEJMNN_00240")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00235" "NALEJMNN_00236")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00233" "NALEJMNN_00234")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00231" "NALEJMNN_00232")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00228" "NALEJMNN_00229")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00226" "NALEJMNN_00227")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00218" "NALEJMNN_00219" "NALEJMNN_00220"
+           "NALEJMNN_00221" "NALEJMNN_00222" "NALEJMNN_00223"
+           "NALEJMNN_00224" "NALEJMNN_00225")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00205" "NALEJMNN_00206" "NALEJMNN_00207"
+           "NALEJMNN_00208" "NALEJMNN_00209" "NALEJMNN_00210"
+           "NALEJMNN_00211" "NALEJMNN_00212" "NALEJMNN_00213"
+           "NALEJMNN_00214" "NALEJMNN_00215" "NALEJMNN_00216")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00202" "NALEJMNN_00203" "NALEJMNN_00204")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00200" "NALEJMNN_00201")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00185" "NALEJMNN_00186" "NALEJMNN_00187"
+           "NALEJMNN_00188" "NALEJMNN_00189" "NALEJMNN_00190"
+           "NALEJMNN_00191" "NALEJMNN_00192" "NALEJMNN_00193"
+           "NALEJMNN_00194")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00182" "NALEJMNN_00183" "NALEJMNN_00184")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00179" "NALEJMNN_00180" "NALEJMNN_00181")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00176" "NALEJMNN_00177" "NALEJMNN_00178")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00172" "NALEJMNN_00173" "NALEJMNN_00174"
+           "NALEJMNN_00175")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00165" "NALEJMNN_00166" "NALEJMNN_00167"
+           "NALEJMNN_00168")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00157" "NALEJMNN_00158" "NALEJMNN_00159"
+           "NALEJMNN_00160" "NALEJMNN_00161" "NALEJMNN_00162"
+           "NALEJMNN_00163" "NALEJMNN_00164")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00153" "NALEJMNN_00154" "NALEJMNN_00155"
+           "NALEJMNN_00156")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00149" "NALEJMNN_00150" "NALEJMNN_00151")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00147" "NALEJMNN_00148")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00135" "NALEJMNN_00136" "NALEJMNN_00137"
+           "NALEJMNN_00138" "NALEJMNN_00139" "NALEJMNN_00140"
+           "NALEJMNN_00141" "NALEJMNN_00142" "NALEJMNN_00143"
+           "NALEJMNN_00144" "NALEJMNN_00145" "NALEJMNN_00146")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00131" "NALEJMNN_00132")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00125" "NALEJMNN_00126" "NALEJMNN_00127")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00122" "NALEJMNN_00123")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00119" "NALEJMNN_00120" "NALEJMNN_00121")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00112" "NALEJMNN_00113" "NALEJMNN_00114"
+           "NALEJMNN_00115" "NALEJMNN_00116")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00109" "NALEJMNN_00110")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00102" "NALEJMNN_00103" "NALEJMNN_00104"
+           "NALEJMNN_00105" "NALEJMNN_00106" "NALEJMNN_00107"
+           "NALEJMNN_00108")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00094" "NALEJMNN_00095" "NALEJMNN_00096"
+           "NALEJMNN_00097" "NALEJMNN_00098" "NALEJMNN_00099"
+           "NALEJMNN_00100" "NALEJMNN_00101")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00089" "NALEJMNN_00090" "NALEJMNN_00091")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00086" "NALEJMNN_00087" "NALEJMNN_00088")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00083" "NALEJMNN_00084")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00080" "NALEJMNN_00081")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00074" "NALEJMNN_00075" "NALEJMNN_00076"
+           "NALEJMNN_00077" "NALEJMNN_00078" "NALEJMNN_00079")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00070" "NALEJMNN_00071")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00066" "NALEJMNN_00067" "NALEJMNN_00068"
+           "NALEJMNN_00069")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00064" "NALEJMNN_00065")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00062" "NALEJMNN_00063")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00060" "NALEJMNN_00061")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00057" "NALEJMNN_00058" "NALEJMNN_00059")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00054" "NALEJMNN_00055" "NALEJMNN_00056")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00049" "NALEJMNN_00050" "NALEJMNN_00051"
+           "NALEJMNN_00052")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00040" "NALEJMNN_00041")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00036" "NALEJMNN_00037")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00031" "NALEJMNN_00032" "NALEJMNN_00033"
+           "NALEJMNN_00034")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00023" "NALEJMNN_00024" "NALEJMNN_00025"
+           "NALEJMNN_00026" "NALEJMNN_00027" "NALEJMNN_00028"
+           "NALEJMNN_00029")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00020" "NALEJMNN_00021")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00018" "NALEJMNN_00019")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00016" "NALEJMNN_00017")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00012" "NALEJMNN_00013" "NALEJMNN_00014"
+           "NALEJMNN_00015")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00010" "NALEJMNN_00011")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00004" "NALEJMNN_00005" "NALEJMNN_00006")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00001" "NALEJMNN_00002" "NALEJMNN_00003")
+Experimentally supported TUs: None
+Predicted:
+
+
+;;;; ------------------ Directons of Genetic Element NALEJMNN_47 --------------------
+
+
+Directon: ("NALEJMNN_03643" "NALEJMNN_03644" "NALEJMNN_03645")
+Experimentally supported TUs: None
+Predicted:
+
+
+;;;; ------------------ Directons of Genetic Element NALEJMNN_20 --------------------
+
+
+Directon: ("NALEJMNN_03613" "NALEJMNN_03614" "NALEJMNN_03615"
+           "NALEJMNN_03616")
+Experimentally supported TUs: None
+Predicted:
+
+
+;;;; ------------------ Directons of Genetic Element NALEJMNN_38 --------------------
+
+
+Directon: ("NALEJMNN_03632" "NALEJMNN_03633" "NALEJMNN_03634")
+Experimentally supported TUs: None
+Predicted:
+
+
+;;;; ------------------ Directons of Genetic Element NALEJMNN_11 --------------------
+
+
+Directon: ("NALEJMNN_03192" "NALEJMNN_03193" "NALEJMNN_03194"
+           "NALEJMNN_03195")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03186" "NALEJMNN_03187" "NALEJMNN_03188"
+           "NALEJMNN_03189")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03183" "NALEJMNN_03184" "NALEJMNN_03185")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03181" "NALEJMNN_03182")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03178" "NALEJMNN_03179")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03175" "NALEJMNN_03176" "NALEJMNN_03177")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03173" "NALEJMNN_03174")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03171" "NALEJMNN_03172")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03159" "NALEJMNN_03160" "NALEJMNN_03161"
+           "NALEJMNN_03162" "NALEJMNN_03163" "NALEJMNN_03164"
+           "NALEJMNN_03165" "NALEJMNN_03166" "NALEJMNN_03167"
+           "NALEJMNN_03168" "NALEJMNN_03169")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03155" "NALEJMNN_03156" "NALEJMNN_03157"
+           "NALEJMNN_03158")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03151" "NALEJMNN_03152" "NALEJMNN_03153"
+           "NALEJMNN_03154")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03145" "NALEJMNN_03146")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03141" "NALEJMNN_03142" "NALEJMNN_03143")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03134" "NALEJMNN_03135" "NALEJMNN_03136"
+           "NALEJMNN_03137" "NALEJMNN_03138" "NALEJMNN_03139")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03131" "NALEJMNN_03132" "NALEJMNN_03133")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03124" "NALEJMNN_03125" "NALEJMNN_03126")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03120" "NALEJMNN_03121" "NALEJMNN_03122"
+           "NALEJMNN_03123")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03112" "NALEJMNN_03113" "NALEJMNN_03114"
+           "NALEJMNN_03115" "NALEJMNN_03116" "NALEJMNN_03117")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03109" "NALEJMNN_03110")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03106" "NALEJMNN_03107")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03097" "NALEJMNN_03098" "NALEJMNN_03099"
+           "NALEJMNN_03100" "NALEJMNN_03101" "NALEJMNN_03102")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03093" "NALEJMNN_03094")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03091" "NALEJMNN_03092")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03084" "NALEJMNN_03085" "NALEJMNN_03086"
+           "NALEJMNN_03087" "NALEJMNN_03088" "NALEJMNN_03089"
+           "NALEJMNN_03090")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03079" "NALEJMNN_03080" "NALEJMNN_03081")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03076" "NALEJMNN_03077")
+Experimentally supported TUs: None
+Predicted:
+
+
+;;;; ------------------ Directons of Genetic Element NALEJMNN_9 --------------------
+
+
+Directon: ("NALEJMNN_02925" "NALEJMNN_02926" "NALEJMNN_02927"
+           "NALEJMNN_02928")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02922" "NALEJMNN_02923" "NALEJMNN_02924")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02919" "NALEJMNN_02920" "NALEJMNN_02921")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02913" "NALEJMNN_02914" "NALEJMNN_02915"
+           "NALEJMNN_02916")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02910" "NALEJMNN_02911" "NALEJMNN_02912")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02907" "NALEJMNN_02908")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02904" "NALEJMNN_02905")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02897" "NALEJMNN_02898" "NALEJMNN_02899"
+           "NALEJMNN_02900" "NALEJMNN_02901" "NALEJMNN_02902"
+           "NALEJMNN_02903")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02892" "NALEJMNN_02893" "NALEJMNN_02894")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02884" "NALEJMNN_02885" "NALEJMNN_02886"
+           "NALEJMNN_02887" "NALEJMNN_02888" "NALEJMNN_02889"
+           "NALEJMNN_02890" "NALEJMNN_02891")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02878" "NALEJMNN_02879" "NALEJMNN_02880"
+           "NALEJMNN_02881" "NALEJMNN_02882" "NALEJMNN_02883")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02870" "NALEJMNN_02871" "NALEJMNN_02872"
+           "NALEJMNN_02873" "NALEJMNN_02874" "NALEJMNN_02875"
+           "NALEJMNN_02876")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02867" "NALEJMNN_02868" "NALEJMNN_02869")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02864" "NALEJMNN_02865")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02862" "NALEJMNN_02863")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02859" "NALEJMNN_02860")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02842" "NALEJMNN_02843" "NALEJMNN_02844"
+           "NALEJMNN_02845" "NALEJMNN_02846" "NALEJMNN_02847"
+           "NALEJMNN_02848" "NALEJMNN_02849" "NALEJMNN_02850"
+           "NALEJMNN_02851" "NALEJMNN_02852" "NALEJMNN_02853"
+           "NALEJMNN_02854" "NALEJMNN_02855" "NALEJMNN_02856"
+           "NALEJMNN_02857" "NALEJMNN_02858")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02839" "NALEJMNN_02840" "NALEJMNN_02841")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02835" "NALEJMNN_02836" "NALEJMNN_02837"
+           "NALEJMNN_02838")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02830" "NALEJMNN_02831" "NALEJMNN_02832"
+           "NALEJMNN_02833" "NALEJMNN_02834")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02827" "NALEJMNN_02828")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02824" "NALEJMNN_02825" "NALEJMNN_02826")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02810" "NALEJMNN_02811" "NALEJMNN_02812"
+           "NALEJMNN_02813" "NALEJMNN_02814" "NALEJMNN_02815")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02808" "NALEJMNN_02809")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02799" "NALEJMNN_02800" "NALEJMNN_02801"
+           "NALEJMNN_02802" "NALEJMNN_02803" "NALEJMNN_02804"
+           "NALEJMNN_02805" "NALEJMNN_02806" "NALEJMNN_02807")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02795" "NALEJMNN_02796" "NALEJMNN_02797")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02787" "NALEJMNN_02788" "NALEJMNN_02789"
+           "NALEJMNN_02790" "NALEJMNN_02791" "NALEJMNN_02792"
+           "NALEJMNN_02793")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02782" "NALEJMNN_02783" "NALEJMNN_02784"
+           "NALEJMNN_02785")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02779" "NALEJMNN_02780" "NALEJMNN_02781")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02773" "NALEJMNN_02774")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02771" "NALEJMNN_02772")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02768" "NALEJMNN_02769" "NALEJMNN_02770")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02766" "NALEJMNN_02767")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02762" "NALEJMNN_02763" "NALEJMNN_02764")
+Experimentally supported TUs: None
+Predicted:
+
+
+;;;; ------------------ Directons of Genetic Element NALEJMNN_14 --------------------
+
+
+Directon: ("NALEJMNN_03455" "NALEJMNN_03456")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03451" "NALEJMNN_03452")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03436" "NALEJMNN_03437" "NALEJMNN_03438"
+           "NALEJMNN_03439" "NALEJMNN_03440" "NALEJMNN_03441"
+           "NALEJMNN_03442" "NALEJMNN_03443" "NALEJMNN_03444"
+           "NALEJMNN_03445" "NALEJMNN_03446" "NALEJMNN_03447"
+           "NALEJMNN_03448" "NALEJMNN_03449")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03433" "NALEJMNN_03434")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03430" "NALEJMNN_03431")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03428" "NALEJMNN_03429")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03422" "NALEJMNN_03423" "NALEJMNN_03424"
+           "NALEJMNN_03425" "NALEJMNN_03426" "NALEJMNN_03427")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03417" "NALEJMNN_03418")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03415" "NALEJMNN_03416")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03410" "NALEJMNN_03411" "NALEJMNN_03412"
+           "NALEJMNN_03413")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03406" "NALEJMNN_03407" "NALEJMNN_03408"
+           "NALEJMNN_03409")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03400" "NALEJMNN_03401" "NALEJMNN_03402"
+           "NALEJMNN_03403" "NALEJMNN_03404")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03395" "NALEJMNN_03396" "NALEJMNN_03397"
+           "NALEJMNN_03398" "NALEJMNN_03399")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03390" "NALEJMNN_03391" "NALEJMNN_03392"
+           "NALEJMNN_03393")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03386" "NALEJMNN_03387" "NALEJMNN_03388")
+Experimentally supported TUs: None
+Predicted:
+
+
+;;;; ------------------ Directons of Genetic Element NALEJMNN_40 --------------------
+
+
+Directon: ("NALEJMNN_03637" "NALEJMNN_03638")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03635" "NALEJMNN_03636")
+Experimentally supported TUs: None
+Predicted:
+
+
+;;;; ------------------ Directons of Genetic Element NALEJMNN_4 --------------------
+
+
+Directon: ("NALEJMNN_01798" "NALEJMNN_01799" "NALEJMNN_01800")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01792" "NALEJMNN_01793" "NALEJMNN_01794"
+           "NALEJMNN_01795" "NALEJMNN_01796")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01789" "NALEJMNN_01790" "NALEJMNN_01791")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01784" "NALEJMNN_01785" "NALEJMNN_01786"
+           "NALEJMNN_01787" "NALEJMNN_01788")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01782" "NALEJMNN_01783")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01776" "NALEJMNN_01777" "NALEJMNN_01778"
+           "NALEJMNN_01779" "NALEJMNN_01780" "NALEJMNN_01781")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01773" "NALEJMNN_01774")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01770" "NALEJMNN_01771" "NALEJMNN_01772")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01768" "NALEJMNN_01769")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01764" "NALEJMNN_01765" "NALEJMNN_01766")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01757" "NALEJMNN_01758")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01752" "NALEJMNN_01753" "NALEJMNN_01754"
+           "NALEJMNN_01755" "NALEJMNN_01756")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01746" "NALEJMNN_01747" "NALEJMNN_01748"
+           "NALEJMNN_01749" "NALEJMNN_01750" "NALEJMNN_01751")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01744" "NALEJMNN_01745")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01742" "NALEJMNN_01743")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01739" "NALEJMNN_01740" "NALEJMNN_01741")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01737" "NALEJMNN_01738")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01734" "NALEJMNN_01735")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01730" "NALEJMNN_01731" "NALEJMNN_01732")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01714" "NALEJMNN_01715" "NALEJMNN_01716"
+           "NALEJMNN_01717" "NALEJMNN_01718" "NALEJMNN_01719"
+           "NALEJMNN_01720" "NALEJMNN_01721" "NALEJMNN_01722"
+           "NALEJMNN_01723" "NALEJMNN_01724" "NALEJMNN_01725"
+           "NALEJMNN_01726" "NALEJMNN_01727" "NALEJMNN_01728")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01712" "NALEJMNN_01713")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01706" "NALEJMNN_01707" "NALEJMNN_01708"
+           "NALEJMNN_01709")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01702" "NALEJMNN_01703" "NALEJMNN_01704"
+           "NALEJMNN_01705")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01694" "NALEJMNN_01695" "NALEJMNN_01696"
+           "NALEJMNN_01697" "NALEJMNN_01698" "NALEJMNN_01699"
+           "NALEJMNN_01700")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01687" "NALEJMNN_01688" "NALEJMNN_01689"
+           "NALEJMNN_01690" "NALEJMNN_01691" "NALEJMNN_01692"
+           "NALEJMNN_01693")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01681" "NALEJMNN_01682" "NALEJMNN_01683")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01677" "NALEJMNN_01678" "NALEJMNN_01679"
+           "NALEJMNN_01680")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01671" "NALEJMNN_01672" "NALEJMNN_01673"
+           "NALEJMNN_01674")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01663" "NALEJMNN_01664" "NALEJMNN_01665"
+           "NALEJMNN_01666" "NALEJMNN_01667" "NALEJMNN_01668"
+           "NALEJMNN_01669")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01657" "NALEJMNN_01658" "NALEJMNN_01659"
+           "NALEJMNN_01660" "NALEJMNN_01661" "NALEJMNN_01662")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01654" "NALEJMNN_01655" "NALEJMNN_01656")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01652" "NALEJMNN_01653")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01650" "NALEJMNN_01651")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01643" "NALEJMNN_01644" "NALEJMNN_01645"
+           "NALEJMNN_01646" "NALEJMNN_01647" "NALEJMNN_01648")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01640" "NALEJMNN_01641" "NALEJMNN_01642")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01628" "NALEJMNN_01629" "NALEJMNN_01630"
+           "NALEJMNN_01631" "NALEJMNN_01632" "NALEJMNN_01633"
+           "NALEJMNN_01634" "NALEJMNN_01635" "NALEJMNN_01636"
+           "NALEJMNN_01637")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01621" "NALEJMNN_01622" "NALEJMNN_01623"
+           "NALEJMNN_01624" "NALEJMNN_01625" "NALEJMNN_01626"
+           "NALEJMNN_01627")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01617" "NALEJMNN_01618" "NALEJMNN_01619"
+           "NALEJMNN_01620")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01615" "NALEJMNN_01616")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01613" "NALEJMNN_01614")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01599" "NALEJMNN_01600" "NALEJMNN_01601"
+           "NALEJMNN_01602" "NALEJMNN_01603" "NALEJMNN_01604"
+           "NALEJMNN_01605" "NALEJMNN_01606" "NALEJMNN_01607"
+           "NALEJMNN_01608" "NALEJMNN_01609" "NALEJMNN_01610"
+           "NALEJMNN_01611")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01597" "NALEJMNN_01598")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01591" "NALEJMNN_01592" "NALEJMNN_01593"
+           "NALEJMNN_01594" "NALEJMNN_01595" "NALEJMNN_01596")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01586" "NALEJMNN_01587" "NALEJMNN_01588"
+           "NALEJMNN_01589" "NALEJMNN_01590")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01580" "NALEJMNN_01581")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01573" "NALEJMNN_01574" "NALEJMNN_01575"
+           "NALEJMNN_01576" "NALEJMNN_01577" "NALEJMNN_01578")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01568" "NALEJMNN_01569" "NALEJMNN_01570"
+           "NALEJMNN_01571" "NALEJMNN_01572")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01565" "NALEJMNN_01566" "NALEJMNN_01567")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01558" "NALEJMNN_01559" "NALEJMNN_01560"
+           "NALEJMNN_01561" "NALEJMNN_01562" "NALEJMNN_01563"
+           "NALEJMNN_01564")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01553" "NALEJMNN_01554" "NALEJMNN_01555"
+           "NALEJMNN_01556" "NALEJMNN_01557")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01542" "NALEJMNN_01543" "NALEJMNN_01544"
+           "NALEJMNN_01545" "NALEJMNN_01546" "NALEJMNN_01547"
+           "NALEJMNN_01548" "NALEJMNN_01549" "NALEJMNN_01550"
+           "NALEJMNN_01551")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01539" "NALEJMNN_01540" "NALEJMNN_01541")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01527" "NALEJMNN_01528" "NALEJMNN_01529"
+           "NALEJMNN_01530" "NALEJMNN_01531" "NALEJMNN_01532"
+           "NALEJMNN_01533" "NALEJMNN_01534" "NALEJMNN_01535"
+           "NALEJMNN_01536" "NALEJMNN_01537" "NALEJMNN_01538")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01504" "NALEJMNN_01505" "NALEJMNN_01506"
+           "NALEJMNN_01507" "NALEJMNN_01508" "NALEJMNN_01509"
+           "NALEJMNN_01510" "NALEJMNN_01511" "NALEJMNN_01512"
+           "NALEJMNN_01513" "NALEJMNN_01514" "NALEJMNN_01515"
+           "NALEJMNN_01516" "NALEJMNN_01517" "NALEJMNN_01518"
+           "NALEJMNN_01519" "NALEJMNN_01520" "NALEJMNN_01521"
+           "NALEJMNN_01522" "NALEJMNN_01523" "NALEJMNN_01524"
+           "NALEJMNN_01525" "NALEJMNN_01526")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01502" "NALEJMNN_01503")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01499" "NALEJMNN_01500" "NALEJMNN_01501")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01495" "NALEJMNN_01496")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01483" "NALEJMNN_01484" "NALEJMNN_01485"
+           "NALEJMNN_01486" "NALEJMNN_01487" "NALEJMNN_01488"
+           "NALEJMNN_01489" "NALEJMNN_01490" "NALEJMNN_01491"
+           "NALEJMNN_01492" "NALEJMNN_01493" "NALEJMNN_01494")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01476" "NALEJMNN_01477" "NALEJMNN_01478"
+           "NALEJMNN_01479" "NALEJMNN_01480" "NALEJMNN_01481"
+           "NALEJMNN_01482")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01474" "NALEJMNN_01475")
+Experimentally supported TUs: None
+Predicted:
+
+
+;;;; ------------------ Directons of Genetic Element NALEJMNN_42 --------------------
+
+
+Directon: ("NALEJMNN_03639" "NALEJMNN_03640" "NALEJMNN_03641"
+           "NALEJMNN_03642")
+Experimentally supported TUs: None
+Predicted:
+
+
+;;;; ------------------ Directons of Genetic Element NALEJMNN_5 --------------------
+
+
+Directon: ("NALEJMNN_02080" "NALEJMNN_02081" "NALEJMNN_02082")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02070" "NALEJMNN_02071" "NALEJMNN_02072"
+           "NALEJMNN_02073" "NALEJMNN_02074" "NALEJMNN_02075"
+           "NALEJMNN_02076" "NALEJMNN_02077" "NALEJMNN_02078")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02068" "NALEJMNN_02069")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02063" "NALEJMNN_02064")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02056" "NALEJMNN_02057" "NALEJMNN_02058"
+           "NALEJMNN_02059" "NALEJMNN_02060" "NALEJMNN_02061"
+           "NALEJMNN_02062")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02043" "NALEJMNN_02044" "NALEJMNN_02045"
+           "NALEJMNN_02046" "NALEJMNN_02047" "NALEJMNN_02048")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02038" "NALEJMNN_02039" "NALEJMNN_02040"
+           "NALEJMNN_02041" "NALEJMNN_02042")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02034" "NALEJMNN_02035")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02028" "NALEJMNN_02029" "NALEJMNN_02030"
+           "NALEJMNN_02031" "NALEJMNN_02032")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02026" "NALEJMNN_02027")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02020" "NALEJMNN_02021")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02014" "NALEJMNN_02015" "NALEJMNN_02016"
+           "NALEJMNN_02017" "NALEJMNN_02018" "NALEJMNN_02019")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02011" "NALEJMNN_02012" "NALEJMNN_02013")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02006" "NALEJMNN_02007" "NALEJMNN_02008"
+           "NALEJMNN_02009" "NALEJMNN_02010")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02000" "NALEJMNN_02001" "NALEJMNN_02002"
+           "NALEJMNN_02003" "NALEJMNN_02004" "NALEJMNN_02005")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01998" "NALEJMNN_01999")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01995" "NALEJMNN_01996")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01990" "NALEJMNN_01991" "NALEJMNN_01992")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01988" "NALEJMNN_01989")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01984" "NALEJMNN_01985" "NALEJMNN_01986"
+           "NALEJMNN_01987")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01982" "NALEJMNN_01983")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01966" "NALEJMNN_01967" "NALEJMNN_01968"
+           "NALEJMNN_01969" "NALEJMNN_01970" "NALEJMNN_01971"
+           "NALEJMNN_01972" "NALEJMNN_01973" "NALEJMNN_01974"
+           "NALEJMNN_01975" "NALEJMNN_01976" "NALEJMNN_01977"
+           "NALEJMNN_01978" "NALEJMNN_01979" "NALEJMNN_01980"
+           "NALEJMNN_01981")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01960" "NALEJMNN_01961" "NALEJMNN_01962"
+           "NALEJMNN_01963" "NALEJMNN_01964" "NALEJMNN_01965")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01951" "NALEJMNN_01952" "NALEJMNN_01953"
+           "NALEJMNN_01954" "NALEJMNN_01955" "NALEJMNN_01956"
+           "NALEJMNN_01957" "NALEJMNN_01958" "NALEJMNN_01959")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01941" "NALEJMNN_01942" "NALEJMNN_01943"
+           "NALEJMNN_01944" "NALEJMNN_01945" "NALEJMNN_01946"
+           "NALEJMNN_01947" "NALEJMNN_01948" "NALEJMNN_01949"
+           "NALEJMNN_01950")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01924" "NALEJMNN_01925" "NALEJMNN_01926"
+           "NALEJMNN_01927" "NALEJMNN_01928" "NALEJMNN_01929"
+           "NALEJMNN_01930" "NALEJMNN_01931" "NALEJMNN_01932"
+           "NALEJMNN_01933" "NALEJMNN_01934" "NALEJMNN_01935"
+           "NALEJMNN_01936" "NALEJMNN_01937" "NALEJMNN_01938"
+           "NALEJMNN_01939" "NALEJMNN_01940")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01921" "NALEJMNN_01922")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01916" "NALEJMNN_01917" "NALEJMNN_01918"
+           "NALEJMNN_01919" "NALEJMNN_01920")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01904" "NALEJMNN_01905" "NALEJMNN_01906"
+           "NALEJMNN_01907" "NALEJMNN_01908" "NALEJMNN_01909"
+           "NALEJMNN_01910" "NALEJMNN_01911" "NALEJMNN_01912"
+           "NALEJMNN_01913" "NALEJMNN_01914" "NALEJMNN_01915")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01901" "NALEJMNN_01902")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01899" "NALEJMNN_01900")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01897" "NALEJMNN_01898")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01891" "NALEJMNN_01892" "NALEJMNN_01893"
+           "NALEJMNN_01894" "NALEJMNN_01895")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01889" "NALEJMNN_01890")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01885" "NALEJMNN_01886" "NALEJMNN_01887"
+           "NALEJMNN_01888")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01880" "NALEJMNN_01881" "NALEJMNN_01882"
+           "NALEJMNN_01883" "NALEJMNN_01884")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01877" "NALEJMNN_01878" "NALEJMNN_01879")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01873" "NALEJMNN_01874" "NALEJMNN_01875")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01871" "NALEJMNN_01872")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01865" "NALEJMNN_01866" "NALEJMNN_01867"
+           "NALEJMNN_01868" "NALEJMNN_01869" "NALEJMNN_01870")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01861" "NALEJMNN_01862" "NALEJMNN_01863")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01859" "NALEJMNN_01860")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01854" "NALEJMNN_01855" "NALEJMNN_01856"
+           "NALEJMNN_01857" "NALEJMNN_01858")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01852" "NALEJMNN_01853")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01848" "NALEJMNN_01849" "NALEJMNN_01850"
+           "NALEJMNN_01851")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01845" "NALEJMNN_01846")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01840" "NALEJMNN_01841" "NALEJMNN_01842"
+           "NALEJMNN_01843")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01833" "NALEJMNN_01834" "NALEJMNN_01835"
+           "NALEJMNN_01836" "NALEJMNN_01837" "NALEJMNN_01838")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01830" "NALEJMNN_01831")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01824" "NALEJMNN_01825" "NALEJMNN_01826"
+           "NALEJMNN_01827" "NALEJMNN_01828")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01822" "NALEJMNN_01823")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01814" "NALEJMNN_01815" "NALEJMNN_01816"
+           "NALEJMNN_01817" "NALEJMNN_01818")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01807" "NALEJMNN_01808" "NALEJMNN_01809"
+           "NALEJMNN_01810" "NALEJMNN_01811")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01805" "NALEJMNN_01806")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01801" "NALEJMNN_01802" "NALEJMNN_01803"
+           "NALEJMNN_01804")
+Experimentally supported TUs: None
+Predicted:
+
+
+;;;; ------------------ Directons of Genetic Element NALEJMNN_2 --------------------
+
+
+Directon: ("NALEJMNN_01104" "NALEJMNN_01105" "NALEJMNN_01106"
+           "NALEJMNN_01107" "NALEJMNN_01108" "NALEJMNN_01109"
+           "NALEJMNN_01110" "NALEJMNN_01111" "NALEJMNN_01112"
+           "NALEJMNN_01113" "NALEJMNN_01114" "NALEJMNN_01115"
+           "NALEJMNN_01116" "NALEJMNN_01117" "NALEJMNN_01118")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01098" "NALEJMNN_01099" "NALEJMNN_01100"
+           "NALEJMNN_01101")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01091" "NALEJMNN_01092" "NALEJMNN_01093"
+           "NALEJMNN_01094" "NALEJMNN_01095")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01088" "NALEJMNN_01089" "NALEJMNN_01090")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01085" "NALEJMNN_01086" "NALEJMNN_01087")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01081" "NALEJMNN_01082" "NALEJMNN_01083"
+           "NALEJMNN_01084")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01072" "NALEJMNN_01073" "NALEJMNN_01074"
+           "NALEJMNN_01075" "NALEJMNN_01076" "NALEJMNN_01077"
+           "NALEJMNN_01078")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01066" "NALEJMNN_01067" "NALEJMNN_01068"
+           "NALEJMNN_01069" "NALEJMNN_01070" "NALEJMNN_01071")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01057" "NALEJMNN_01058" "NALEJMNN_01059"
+           "NALEJMNN_01060" "NALEJMNN_01061" "NALEJMNN_01062"
+           "NALEJMNN_01063" "NALEJMNN_01064" "NALEJMNN_01065")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01055" "NALEJMNN_01056")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01053" "NALEJMNN_01054")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01051" "NALEJMNN_01052")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01049" "NALEJMNN_01050")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01040" "NALEJMNN_01041" "NALEJMNN_01042"
+           "NALEJMNN_01043" "NALEJMNN_01044" "NALEJMNN_01045")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01037" "NALEJMNN_01038" "NALEJMNN_01039")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01024" "NALEJMNN_01025" "NALEJMNN_01026"
+           "NALEJMNN_01027" "NALEJMNN_01028" "NALEJMNN_01029"
+           "NALEJMNN_01030" "NALEJMNN_01031" "NALEJMNN_01032"
+           "NALEJMNN_01033" "NALEJMNN_01034" "NALEJMNN_01035"
+           "NALEJMNN_01036")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01021" "NALEJMNN_01022")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01016" "NALEJMNN_01017" "NALEJMNN_01018"
+           "NALEJMNN_01019" "NALEJMNN_01020")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01009" "NALEJMNN_01010" "NALEJMNN_01011"
+           "NALEJMNN_01012" "NALEJMNN_01013" "NALEJMNN_01014"
+           "NALEJMNN_01015")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01007" "NALEJMNN_01008")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_01005" "NALEJMNN_01006")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00999" "NALEJMNN_01000")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00995" "NALEJMNN_00996" "NALEJMNN_00997"
+           "NALEJMNN_00998")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00992" "NALEJMNN_00993")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00990" "NALEJMNN_00991")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00984" "NALEJMNN_00985" "NALEJMNN_00986"
+           "NALEJMNN_00987")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00981" "NALEJMNN_00982" "NALEJMNN_00983")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00978" "NALEJMNN_00979" "NALEJMNN_00980")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00971" "NALEJMNN_00972" "NALEJMNN_00973"
+           "NALEJMNN_00974" "NALEJMNN_00975" "NALEJMNN_00976")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00965" "NALEJMNN_00966" "NALEJMNN_00967"
+           "NALEJMNN_00968" "NALEJMNN_00969" "NALEJMNN_00970")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00962" "NALEJMNN_00963" "NALEJMNN_00964")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00958" "NALEJMNN_00959" "NALEJMNN_00960"
+           "NALEJMNN_00961")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00956" "NALEJMNN_00957")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00954" "NALEJMNN_00955")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00951" "NALEJMNN_00952" "NALEJMNN_00953")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00949" "NALEJMNN_00950")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00942" "NALEJMNN_00943" "NALEJMNN_00944"
+           "NALEJMNN_00945" "NALEJMNN_00946" "NALEJMNN_00947")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00940" "NALEJMNN_00941")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00938" "NALEJMNN_00939")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00932" "NALEJMNN_00933" "NALEJMNN_00934"
+           "NALEJMNN_00935")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00923" "NALEJMNN_00924" "NALEJMNN_00925"
+           "NALEJMNN_00926" "NALEJMNN_00927" "NALEJMNN_00928"
+           "NALEJMNN_00929" "NALEJMNN_00930")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00920" "NALEJMNN_00921")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00918" "NALEJMNN_00919")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00909" "NALEJMNN_00910" "NALEJMNN_00911"
+           "NALEJMNN_00912" "NALEJMNN_00913" "NALEJMNN_00914"
+           "NALEJMNN_00915" "NALEJMNN_00916" "NALEJMNN_00917")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00905" "NALEJMNN_00906" "NALEJMNN_00907"
+           "NALEJMNN_00908")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00893" "NALEJMNN_00894" "NALEJMNN_00895"
+           "NALEJMNN_00896" "NALEJMNN_00897" "NALEJMNN_00898"
+           "NALEJMNN_00899" "NALEJMNN_00900" "NALEJMNN_00901"
+           "NALEJMNN_00902" "NALEJMNN_00903")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00887" "NALEJMNN_00888" "NALEJMNN_00889"
+           "NALEJMNN_00890" "NALEJMNN_00891" "NALEJMNN_00892")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00885" "NALEJMNN_00886")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00880" "NALEJMNN_00881" "NALEJMNN_00882"
+           "NALEJMNN_00883" "NALEJMNN_00884")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00872" "NALEJMNN_00873" "NALEJMNN_00874"
+           "NALEJMNN_00875" "NALEJMNN_00876" "NALEJMNN_00877"
+           "NALEJMNN_00878")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00870" "NALEJMNN_00871")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00866" "NALEJMNN_00867")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00855" "NALEJMNN_00856" "NALEJMNN_00857"
+           "NALEJMNN_00858" "NALEJMNN_00859" "NALEJMNN_00860"
+           "NALEJMNN_00861" "NALEJMNN_00862" "NALEJMNN_00863"
+           "NALEJMNN_00864")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00853" "NALEJMNN_00854")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00840" "NALEJMNN_00841" "NALEJMNN_00842"
+           "NALEJMNN_00843" "NALEJMNN_00844" "NALEJMNN_00845"
+           "NALEJMNN_00846" "NALEJMNN_00847" "NALEJMNN_00848"
+           "NALEJMNN_00849" "NALEJMNN_00850" "NALEJMNN_00851"
+           "NALEJMNN_00852")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00795" "NALEJMNN_00796" "NALEJMNN_00797"
+           "NALEJMNN_00798" "NALEJMNN_00799" "NALEJMNN_00800"
+           "NALEJMNN_00801" "NALEJMNN_00802" "NALEJMNN_00803"
+           "NALEJMNN_00804" "NALEJMNN_00805" "NALEJMNN_00806"
+           "NALEJMNN_00807" "NALEJMNN_00808" "NALEJMNN_00809"
+           "NALEJMNN_00810" "NALEJMNN_00811" "NALEJMNN_00812"
+           "NALEJMNN_00813" "NALEJMNN_00814" "NALEJMNN_00815"
+           "NALEJMNN_00816" "NALEJMNN_00817" "NALEJMNN_00818"
+           "NALEJMNN_00819" "NALEJMNN_00820" "NALEJMNN_00821"
+           "NALEJMNN_00822" "NALEJMNN_00823" "NALEJMNN_00824"
+           "NALEJMNN_00825" "NALEJMNN_00826" "NALEJMNN_00827"
+           "NALEJMNN_00828" "NALEJMNN_00829" "NALEJMNN_00830"
+           "NALEJMNN_00831" "NALEJMNN_00832" "NALEJMNN_00833"
+           "NALEJMNN_00834" "NALEJMNN_00835" "NALEJMNN_00836"
+           "NALEJMNN_00837" "NALEJMNN_00838")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00788" "NALEJMNN_00789" "NALEJMNN_00790"
+           "NALEJMNN_00791" "NALEJMNN_00792" "NALEJMNN_00793")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00782" "NALEJMNN_00783" "NALEJMNN_00784"
+           "NALEJMNN_00785" "NALEJMNN_00786" "NALEJMNN_00787")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00780" "NALEJMNN_00781")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00776" "NALEJMNN_00777" "NALEJMNN_00778"
+           "NALEJMNN_00779")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00773" "NALEJMNN_00774")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00768" "NALEJMNN_00769")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00763" "NALEJMNN_00764" "NALEJMNN_00765")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00761" "NALEJMNN_00762")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00757" "NALEJMNN_00758" "NALEJMNN_00759"
+           "NALEJMNN_00760")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00751" "NALEJMNN_00752" "NALEJMNN_00753"
+           "NALEJMNN_00754" "NALEJMNN_00755")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00747" "NALEJMNN_00748" "NALEJMNN_00749")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00744" "NALEJMNN_00745" "NALEJMNN_00746")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00741" "NALEJMNN_00742" "NALEJMNN_00743")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00737" "NALEJMNN_00738" "NALEJMNN_00739")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00728" "NALEJMNN_00729" "NALEJMNN_00730"
+           "NALEJMNN_00731" "NALEJMNN_00732" "NALEJMNN_00733"
+           "NALEJMNN_00734" "NALEJMNN_00735")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00722" "NALEJMNN_00723" "NALEJMNN_00724"
+           "NALEJMNN_00725")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00717" "NALEJMNN_00718" "NALEJMNN_00719"
+           "NALEJMNN_00720" "NALEJMNN_00721")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00708" "NALEJMNN_00709" "NALEJMNN_00710"
+           "NALEJMNN_00711" "NALEJMNN_00712" "NALEJMNN_00713"
+           "NALEJMNN_00714" "NALEJMNN_00715")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00703" "NALEJMNN_00704" "NALEJMNN_00705"
+           "NALEJMNN_00706" "NALEJMNN_00707")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00700" "NALEJMNN_00701" "NALEJMNN_00702")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00692" "NALEJMNN_00693" "NALEJMNN_00694"
+           "NALEJMNN_00695" "NALEJMNN_00696" "NALEJMNN_00697"
+           "NALEJMNN_00698")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00683" "NALEJMNN_00684" "NALEJMNN_00685"
+           "NALEJMNN_00686" "NALEJMNN_00687" "NALEJMNN_00688"
+           "NALEJMNN_00689" "NALEJMNN_00690")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00680" "NALEJMNN_00681")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00678" "NALEJMNN_00679")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00675" "NALEJMNN_00676")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00671" "NALEJMNN_00672" "NALEJMNN_00673")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00668" "NALEJMNN_00669")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_00662" "NALEJMNN_00663" "NALEJMNN_00664"
+           "NALEJMNN_00665" "NALEJMNN_00666")
+Experimentally supported TUs: None
+Predicted:
+
+
+;;;; ------------------ Directons of Genetic Element NALEJMNN_21 --------------------
+
+
+Directon: ("NALEJMNN_03617" "NALEJMNN_03618")
+Experimentally supported TUs: None
+Predicted:
+
+
+;;;; ------------------ Directons of Genetic Element NALEJMNN_16 --------------------
+
+
+Directon: ("NALEJMNN_03527" "NALEJMNN_03528" "NALEJMNN_03529")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03524" "NALEJMNN_03525")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03522" "NALEJMNN_03523")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03514" "NALEJMNN_03515" "NALEJMNN_03516"
+           "NALEJMNN_03517" "NALEJMNN_03518" "NALEJMNN_03519")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03510" "NALEJMNN_03511" "NALEJMNN_03512"
+           "NALEJMNN_03513")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03506" "NALEJMNN_03507")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_03496" "NALEJMNN_03497" "NALEJMNN_03498"
+           "NALEJMNN_03499" "NALEJMNN_03500" "NALEJMNN_03501"
+           "NALEJMNN_03502" "NALEJMNN_03503" "NALEJMNN_03504")
+Experimentally supported TUs: None
+Predicted:
+
+
+;;;; ------------------ Directons of Genetic Element NALEJMNN_6 --------------------
+
+
+Directon: ("NALEJMNN_02355" "NALEJMNN_02356" "NALEJMNN_02357")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02353" "NALEJMNN_02354")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02351" "NALEJMNN_02352")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02346" "NALEJMNN_02347" "NALEJMNN_02348"
+           "NALEJMNN_02349")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02344" "NALEJMNN_02345")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02341" "NALEJMNN_02342")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02336" "NALEJMNN_02337" "NALEJMNN_02338"
+           "NALEJMNN_02339")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02332" "NALEJMNN_02333" "NALEJMNN_02334"
+           "NALEJMNN_02335")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02330" "NALEJMNN_02331")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02327" "NALEJMNN_02328" "NALEJMNN_02329")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02325" "NALEJMNN_02326")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02320" "NALEJMNN_02321" "NALEJMNN_02322"
+           "NALEJMNN_02323")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02311" "NALEJMNN_02312" "NALEJMNN_02313"
+           "NALEJMNN_02314" "NALEJMNN_02315" "NALEJMNN_02316"
+           "NALEJMNN_02317" "NALEJMNN_02318")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02308" "NALEJMNN_02309" "NALEJMNN_02310")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02300" "NALEJMNN_02301" "NALEJMNN_02302"
+           "NALEJMNN_02303" "NALEJMNN_02304" "NALEJMNN_02305"
+           "NALEJMNN_02306" "NALEJMNN_02307")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02295" "NALEJMNN_02296" "NALEJMNN_02297"
+           "NALEJMNN_02298" "NALEJMNN_02299")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02286" "NALEJMNN_02287" "NALEJMNN_02288"
+           "NALEJMNN_02289" "NALEJMNN_02290" "NALEJMNN_02291"
+           "NALEJMNN_02292" "NALEJMNN_02293" "NALEJMNN_02294")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02276" "NALEJMNN_02277" "NALEJMNN_02278"
+           "NALEJMNN_02279" "NALEJMNN_02280" "NALEJMNN_02281"
+           "NALEJMNN_02282" "NALEJMNN_02283" "NALEJMNN_02284"
+           "NALEJMNN_02285")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02273" "NALEJMNN_02274")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02264" "NALEJMNN_02265" "NALEJMNN_02266"
+           "NALEJMNN_02267" "NALEJMNN_02268" "NALEJMNN_02269"
+           "NALEJMNN_02270")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02262" "NALEJMNN_02263")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02258" "NALEJMNN_02259")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02254" "NALEJMNN_02255" "NALEJMNN_02256"
+           "NALEJMNN_02257")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02245" "NALEJMNN_02246" "NALEJMNN_02247"
+           "NALEJMNN_02248" "NALEJMNN_02249" "NALEJMNN_02250"
+           "NALEJMNN_02251" "NALEJMNN_02252" "NALEJMNN_02253")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02240" "NALEJMNN_02241" "NALEJMNN_02242"
+           "NALEJMNN_02243" "NALEJMNN_02244")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02238" "NALEJMNN_02239")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02233" "NALEJMNN_02234" "NALEJMNN_02235"
+           "NALEJMNN_02236" "NALEJMNN_02237")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02230" "NALEJMNN_02231")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02226" "NALEJMNN_02227" "NALEJMNN_02228"
+           "NALEJMNN_02229")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02223" "NALEJMNN_02224")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02216" "NALEJMNN_02217" "NALEJMNN_02218"
+           "NALEJMNN_02219" "NALEJMNN_02220" "NALEJMNN_02221"
+           "NALEJMNN_02222")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02211" "NALEJMNN_02212" "NALEJMNN_02213")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02206" "NALEJMNN_02207" "NALEJMNN_02208"
+           "NALEJMNN_02209")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02203" "NALEJMNN_02204" "NALEJMNN_02205")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02197" "NALEJMNN_02198" "NALEJMNN_02199"
+           "NALEJMNN_02200" "NALEJMNN_02201")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02192" "NALEJMNN_02193" "NALEJMNN_02194")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02186" "NALEJMNN_02187" "NALEJMNN_02188"
+           "NALEJMNN_02189")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02183" "NALEJMNN_02184" "NALEJMNN_02185")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02181" "NALEJMNN_02182")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02177" "NALEJMNN_02178" "NALEJMNN_02179"
+           "NALEJMNN_02180")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02171" "NALEJMNN_02172" "NALEJMNN_02173"
+           "NALEJMNN_02174" "NALEJMNN_02175" "NALEJMNN_02176")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02164" "NALEJMNN_02165" "NALEJMNN_02166"
+           "NALEJMNN_02167" "NALEJMNN_02168")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02160" "NALEJMNN_02161" "NALEJMNN_02162")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02158" "NALEJMNN_02159")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02155" "NALEJMNN_02156" "NALEJMNN_02157")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02152" "NALEJMNN_02153")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02141" "NALEJMNN_02142" "NALEJMNN_02143"
+           "NALEJMNN_02144" "NALEJMNN_02145" "NALEJMNN_02146"
+           "NALEJMNN_02147" "NALEJMNN_02148" "NALEJMNN_02149"
+           "NALEJMNN_02150" "NALEJMNN_02151")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02135" "NALEJMNN_02136" "NALEJMNN_02137"
+           "NALEJMNN_02138" "NALEJMNN_02139" "NALEJMNN_02140")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02133" "NALEJMNN_02134")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02126" "NALEJMNN_02127" "NALEJMNN_02128"
+           "NALEJMNN_02129" "NALEJMNN_02130" "NALEJMNN_02131")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02116" "NALEJMNN_02117" "NALEJMNN_02118"
+           "NALEJMNN_02119" "NALEJMNN_02120" "NALEJMNN_02121"
+           "NALEJMNN_02122" "NALEJMNN_02123")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02114" "NALEJMNN_02115")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02112" "NALEJMNN_02113")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02108" "NALEJMNN_02109" "NALEJMNN_02110")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02106" "NALEJMNN_02107")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02090" "NALEJMNN_02091" "NALEJMNN_02092"
+           "NALEJMNN_02093" "NALEJMNN_02094" "NALEJMNN_02095"
+           "NALEJMNN_02096" "NALEJMNN_02097" "NALEJMNN_02098"
+           "NALEJMNN_02099" "NALEJMNN_02100" "NALEJMNN_02101"
+           "NALEJMNN_02102" "NALEJMNN_02103" "NALEJMNN_02104")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02087" "NALEJMNN_02088")
+Experimentally supported TUs: None
+Predicted:
+
+Directon: ("NALEJMNN_02083" "NALEJMNN_02084" "NALEJMNN_02085"
+           "NALEJMNN_02086")
+Experimentally supported TUs: None
+Predicted:
